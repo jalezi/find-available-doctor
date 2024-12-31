@@ -8,12 +8,12 @@ import L from 'leaflet';
 import { Alert } from '@mui/material';
 
 import PropTypes from 'prop-types';
-import { MAP } from 'const';
+import { MAP } from '@/const';
 
-import { filterContext } from 'context';
-import { useLeafletContext } from 'context/leafletContext';
+import { filterContext } from '@/context';
+import { useLeafletContext } from '@/context/leafletContext';
 
-import DoctorCard from 'components/DoctorCard';
+import DoctorCard from '@/components/DoctorCard';
 import MainMap from './Map';
 import { MainScrollTop } from '../Shared/ScrollTop';
 import FooterInfoCard from '../Shared/FooterInfo';

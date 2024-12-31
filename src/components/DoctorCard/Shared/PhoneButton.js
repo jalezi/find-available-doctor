@@ -3,7 +3,7 @@ import { t } from 'i18next';
 
 import { IconButton, Tooltip } from '@mui/material';
 
-import * as Icons from 'components/Shared/Icons';
+import * as Icons from '@/components/Shared/Icons';
 
 const PhoneButton = function PhoneButton({ phone }) {
   const title = phone || t('doctorCard.noPhone');

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import ToggleGroup from 'components/Shared/ToggleGroup';
+import ToggleGroup from '@/components/Shared/ToggleGroup';
 
 import { t } from 'i18next';
 import { IconToggleButton } from './Shared';

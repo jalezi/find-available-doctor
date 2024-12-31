@@ -1,4 +1,4 @@
-import * as Icons from 'components/Shared/Icons';
+import * as Icons from '@/components/Shared/Icons';
 import { t } from 'i18next';
 import PropTypes from 'prop-types';
 import * as Styled from '../styles';

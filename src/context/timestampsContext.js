@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
-import useFetchTs from 'hooks/useFetchTs';
-import { CSV_URL } from 'const';
+import useFetchTs from '@/hooks/useFetchTs';
+import { CSV_URL } from '@/const';
 
 const TimestampsContext = createContext();
 

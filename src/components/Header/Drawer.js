@@ -4,7 +4,7 @@ import MuiDrawer from '@mui/material/Drawer';
 import Typography from '@mui/material/Typography';
 
 import IconButton from '@mui/material/IconButton';
-import * as Icons from 'components/Shared/Icons';
+import * as Icons from '@/components/Shared/Icons';
 import Stack from '@mui/material/Stack';
 import { t } from 'i18next';
 import PropTypes from 'prop-types';

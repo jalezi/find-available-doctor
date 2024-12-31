@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 
-import DoctorCard from 'components/DoctorCard';
-import { Loader } from 'components/Shared';
+import DoctorCard from '@/components/DoctorCard';
+import { Loader } from '@/components/Shared';
 
-import { leafletContext } from 'context';
-import { useDoctors } from 'context/doctorsContext';
+import { leafletContext } from '@/context';
+import { useDoctors } from '@/context/doctorsContext';
 import FooterInfoCard from '../components/Shared/FooterInfo';
 
 import * as Styled from './styles/Doctor';

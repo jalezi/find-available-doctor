@@ -1,6 +1,6 @@
 import slugify from 'slugify';
 
-import { DOCTORS, MAP } from 'const';
+import { DOCTORS, MAP } from '@/const';
 
 const { GEO_LOCATION } = MAP;
 

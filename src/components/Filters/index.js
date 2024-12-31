@@ -4,9 +4,9 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { t } from 'i18next';
 import PropTypes from 'prop-types';
 
-import { useFilter } from 'context/filterContext';
+import { useFilter } from '@/context/filterContext';
 
-import * as Icons from 'components/Shared/Icons';
+import * as Icons from '@/components/Shared/Icons';
 
 import ToggleAccepts from './ToggleAccepts';
 import ToggleDoctorType from './ToggleDoctorType';

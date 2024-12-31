@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 import { CircleMarker, Marker, Popup, Tooltip } from 'react-leaflet';
-import { MAP } from 'const';
+import { MAP } from '@/const';
 import L from 'leaflet';
 import iconRetina from 'leaflet/dist/images/marker-icon-2x.png';
 import icon from 'leaflet/dist/images/marker-icon.png';

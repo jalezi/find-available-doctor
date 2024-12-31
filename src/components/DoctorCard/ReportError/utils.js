@@ -23,27 +23,43 @@
  */
 export const HIDDEN_FIELDS = ['name', 'url', 'type', 'instId', 'provider'];
 
+const name = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_NAME;
+const url = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_URL;
+const type = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_TYPE;
+const instId = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_INSTID;
+const provider = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_PROVIDER;
+const address = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_ADDRESS;
+const accepts = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_ACCEPTS;
+const availability = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_AVAILABILITY;
+const website = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_WEBSITE;
+const phone = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_PHONE;
+const email = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_EMAIL;
+const orderform = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_ORDERFORM;
+const note = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_INPUT_NOTE;
+
 /**
  * Retrieves the Google Sheet form field IDs.
  * @returns {FormFieldIds} The form field IDs.
  */
 export function getGSheetFormFieldIds() {
   return {
-    name: process.env.REACT_APP_GOOGLE_FORM_INPUT_NAME,
-    url: process.env.REACT_APP_GOOGLE_FORM_INPUT_URL,
-    type: process.env.REACT_APP_GOOGLE_FORM_INPUT_TYPE,
-    instId: process.env.REACT_APP_GOOGLE_FORM_INPUT_INSTID,
-    provider: process.env.REACT_APP_GOOGLE_FORM_INPUT_PROVIDER,
-    address: process.env.REACT_APP_GOOGLE_FORM_INPUT_ADDRESS,
-    accepts: process.env.REACT_APP_GOOGLE_FORM_INPUT_ACCEPTS,
-    availability: process.env.REACT_APP_GOOGLE_FORM_INPUT_AVAILABILITY,
-    website: process.env.REACT_APP_GOOGLE_FORM_INPUT_WEBSITE,
-    phone: process.env.REACT_APP_GOOGLE_FORM_INPUT_PHONE,
-    email: process.env.REACT_APP_GOOGLE_FORM_INPUT_EMAIL,
-    orderform: process.env.REACT_APP_GOOGLE_FORM_INPUT_ORDERFORM,
-    note: process.env.REACT_APP_GOOGLE_FORM_INPUT_NOTE,
+    name,
+    url,
+    type,
+    instId,
+    provider,
+    address,
+    accepts,
+    availability,
+    website,
+    phone,
+    email,
+    orderform,
+    note,
   };
 }
+
+const formId = import.meta.env.VITE_REACT_APP_GOOGLE_FORM_ID;
 
 /**
  * Retrieves the Google Sheet form URL.
@@ -51,7 +67,7 @@ export function getGSheetFormFieldIds() {
  *
  * */
 export function getGSheetFormUrl() {
-  return `https://docs.google.com/forms/d/${process.env.REACT_APP_GOOGLE_FORM_ID}/formResponse`;
+  return `https://docs.google.com/forms/d/${formId}/formResponse`;
 }
 
 /**

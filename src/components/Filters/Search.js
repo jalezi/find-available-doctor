@@ -1,9 +1,9 @@
 import { useLocation } from 'react-router-dom';
 
-import * as Icons from 'components/Shared/Icons';
-import { useFilter } from 'context/filterContext';
+import * as Icons from '@/components/Shared/Icons';
+import { useFilter } from '@/context/filterContext';
 import { useState, useRef } from 'react';
-import { useDebounce } from 'hooks';
+import { useDebounce } from '@/hooks';
 import { t } from 'i18next';
 import * as Styled from './styles';
 

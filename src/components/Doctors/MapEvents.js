@@ -1,5 +1,5 @@
 import { useMapEvents } from 'react-leaflet';
-import { useFilter } from 'context/filterContext';
+import { useFilter } from '@/context/filterContext';
 import { filterBySearchValueInMapBounds } from '../../utils';
 
 const MapEvents = function MapEvents() {

@@ -4,8 +4,8 @@ import { Tooltip } from '@mui/material';
 
 import PropTypes from 'prop-types';
 
-import SingleChart from 'components/Shared/CircleChart';
-import * as Icons from 'components/Shared/Icons';
+import SingleChart from '@/components/Shared/CircleChart';
+import * as Icons from '@/components/Shared/Icons';
 
 import Accepts from './Accepts';
 

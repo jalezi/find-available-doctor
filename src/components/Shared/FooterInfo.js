@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { styled } from '@mui/material/styles';
 import { t } from 'i18next';
 
-import { useTimestamps } from 'context/timestampsContext';
+import { useTimestamps } from '@/context/timestampsContext';
 
 export const FooterInfo = styled('div')(({ theme }) => ({
   fontSize: '12px',

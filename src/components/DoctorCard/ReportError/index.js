@@ -15,7 +15,7 @@ import {
 } from '@mui/material';
 import { t } from 'i18next';
 
-import * as SEO from 'components/SEO';
+import * as SEO from '@/components/SEO';
 import slugify from 'slugify';
 import * as Shared from '../Shared';
 import { SelectEdit, TextareaEdit } from './InlineEdit';
@@ -159,6 +159,8 @@ const ReportError = function ReportError({
     setOpenDialog(false);
   };
 
+  const defaultUrl = import.meta.env.VITE_REACT_APP_URL + path;
+
   return (
     <>
       <SEO.Dynamic title={t('SEO.title.home')} meta={meta} lang={lng} />
@@ -178,7 +180,7 @@ const ReportError = function ReportError({
           </Alert>
 
           <input hidden name="name" defaultValue={doctorFormData.name} />
-          <input hidden name="url" defaultValue={process.env.REACT_APP_URL + path} />
+          <input hidden name="url" defaultValue={defaultUrl} />
           <input hidden name="type" defaultValue={doctorFormData.type} />
           <input hidden name="instId" defaultValue={doctorFormData.instId} />
           <input hidden name="provider" defaultValue={doctorFormData.provider} />

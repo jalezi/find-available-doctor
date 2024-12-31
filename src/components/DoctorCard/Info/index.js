@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 import { t } from 'i18next';
 
-import { useLeafletContext } from 'context/leafletContext';
+import { useLeafletContext } from '@/context/leafletContext';
 
 import PropTypes from 'prop-types';
 import DoctorActions from './DoctorActions';

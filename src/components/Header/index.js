@@ -1,9 +1,9 @@
 import { useRef, useState } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { IconButton, TextField, Toolbar } from '@mui/material';
-import * as Icons from 'components/Shared/Icons';
-import i18next, { languages } from 'i18n';
-import { useFilter } from 'context/filterContext';
+import * as Icons from '@/components/Shared/Icons';
+import i18next, { languages } from '@/i18n';
+import { useFilter } from '@/context/filterContext';
 import TemporaryDrawer from './Drawer';
 import NavLinks from './NavLinks';
 import SocialLinks from './SocialLinks';

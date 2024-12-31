@@ -2,7 +2,7 @@ import { useEffect, useState, createRef, memo } from 'react';
 import { useMap } from 'react-leaflet';
 import { useTheme } from '@mui/material/styles';
 
-import { Markers } from 'components/Shared/Leaflet';
+import { Markers } from '@/components/Shared/Leaflet';
 import { t } from 'i18next';
 import * as Styled from './styles';
 import Info from '../DoctorCard/Info';

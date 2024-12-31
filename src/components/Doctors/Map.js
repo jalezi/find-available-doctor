@@ -1,10 +1,10 @@
 import MarkerClusterGroup from 'react-leaflet-markercluster';
 import PropTypes from 'prop-types';
 import { t } from 'i18next';
-import { MAP } from 'const';
+import { MAP } from '@/const';
 
-import { withErrorBoundary } from 'components/Shared/ErrorBoundary';
-import Leaflet from 'components/Shared/Leaflet';
+import { withErrorBoundary } from '@/components/Shared/ErrorBoundary';
+import Leaflet from '@/components/Shared/Leaflet';
 import * as Markers from './Markers';
 import MapEvents from './MapEvents';
 

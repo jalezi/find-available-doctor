@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react';
-import { CSV_URL, DOCTORS } from 'const';
-import { createDoctors } from 'services';
-import { fromArrayWithHeader } from 'utils';
+import { CSV_URL, DOCTORS } from '@/const';
+import { createDoctors } from '@/services';
+import { fromArrayWithHeader } from '@/utils';
 import useFetchAndParseCsv from '../hooks/useFetchAndParseCsv';
 import { ChildrenPropType } from '../types';
 

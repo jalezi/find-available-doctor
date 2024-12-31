@@ -1,7 +1,7 @@
 import MuiBox from '@mui/material/Box';
 import { darken, styled } from '@mui/material/styles';
 
-import { SIZES } from 'const';
+import { SIZES } from '@/const';
 
 export const Main = styled(MuiBox)(() => ({
   '@media print': {

@@ -1,7 +1,7 @@
 import { styled } from '@mui/material/styles';
 import BaseInfiniteScroll from 'react-infinite-scroll-component';
 
-import { SIZES } from 'const';
+import { SIZES } from '@/const';
 import { Card } from '@mui/material';
 
 export const Wrapper = styled('div')(({ theme, show }) => {

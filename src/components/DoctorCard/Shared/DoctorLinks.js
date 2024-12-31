@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 import { Typography } from '@mui/material';
-import * as Icons from 'components/Shared/Icons';
+import * as Icons from '@/components/Shared/Icons';
 
 import * as Styled from '../styles';
 import * as Links from './Links';

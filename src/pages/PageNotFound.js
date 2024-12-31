@@ -1,5 +1,5 @@
 import i18n, { t } from 'i18next';
-import * as SEO from 'components/SEO';
+import * as SEO from '@/components/SEO';
 import * as Styled from './styles/PageNotFound';
 import image from '../assets/doctor-404.png';
 import image2x from '../assets/doctor-404@2x.png';

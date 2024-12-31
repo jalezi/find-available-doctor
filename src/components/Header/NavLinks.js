@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import i18next, { t } from 'i18next';
 import { useNavigate } from 'react-router-dom';
-import { useFilter } from 'context/filterContext';
+import { useFilter } from '@/context/filterContext';
 import * as Styled from './styles';
 import SledilnikOrgLinks from './SledilnikOrgLinks';
 

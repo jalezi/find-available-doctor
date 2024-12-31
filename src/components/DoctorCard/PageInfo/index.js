@@ -4,10 +4,10 @@ import PrintIcon from '@mui/icons-material/Print';
 import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import { t } from 'i18next';
 
-import { useFilter } from 'context/filterContext';
+import { useFilter } from '@/context/filterContext';
 
-import * as Icons from 'components/Shared/Icons';
-import { MAP } from 'const';
+import * as Icons from '@/components/Shared/Icons';
+import { MAP } from '@/const';
 
 import ReportError from '../ReportError';
 import WebsiteLinks from './WebsiteLinks';

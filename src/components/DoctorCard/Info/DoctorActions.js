@@ -5,7 +5,7 @@ import { CardActions, Divider, IconButton, ListItemIcon, MenuItem } from '@mui/m
 import { MoreVert as MoreVertIcon } from '@mui/icons-material/';
 import { t } from 'i18next';
 
-import * as Icons from 'components/Shared/Icons';
+import * as Icons from '@/components/Shared/Icons';
 
 import * as Styled from '../styles';
 import * as Shared from '../Shared';

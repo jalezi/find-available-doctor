@@ -1,4 +1,4 @@
-const { useState } = require('react');
+import { useState } from 'react';
 // not sure if this is the best way to do this
 /**
  * Add this type in top of your file, or if commonly used in some types file.

@@ -1,9 +1,9 @@
 import { styled } from '@mui/material/styles';
 import MarkdownBase from 'markdown-to-jsx';
-import iconExpand from 'assets/expand-dd.svg';
-import iconClose from 'assets/close-dd.svg';
-import iconCheck from 'assets/check.svg';
-import iconCopy from 'assets/icon-copy.svg';
+import iconExpand from '@/assets/expand-dd.svg';
+import iconClose from '@/assets/close-dd.svg';
+import iconCheck from '@/assets/check.svg';
+import iconCopy from '@/assets/icon-copy.svg';
 
 export const IconWrapper = styled('span')(() => ({
   width: '28px',

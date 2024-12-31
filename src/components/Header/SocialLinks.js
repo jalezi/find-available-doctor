@@ -1,4 +1,4 @@
-import * as Icons from 'components/Shared/Icons';
+import * as Icons from '@/components/Shared/Icons';
 import * as Styled from './styles';
 
 const SocialLinks = function SocialLinks() {

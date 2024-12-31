@@ -1,10 +1,10 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { t } from 'i18next';
 
-import enAbout from 'content/en/about.md';
-import slAbout from 'content/sl/about.md';
-import * as SEO from 'components/SEO';
+import enAbout from '@/content/en/about.md';
+import slAbout from '@/content/sl/about.md';
+import * as SEO from '@/components/SEO';
 import * as Styled from './styles/Markdown';
 import FooterInfoCard from '../components/Shared/FooterInfo';
 
@@ -14,19 +14,9 @@ const MD = {
 };
 
 const About = function About() {
-  const [postMarkdown, setPostMarkdown] = useState('');
   const { lng } = useParams();
+  const markdown = MD?.[lng] ?? slAbout;
   const aboutRef = useRef();
-
-  useEffect(() => {
-    const theTextFile = MD?.[lng] ?? slAbout;
-
-    fetch(theTextFile)
-      .then(response => response.text())
-      .then(text => {
-        setPostMarkdown(text);
-      });
-  }, [lng]);
 
   // append attribute target="blank" to all external links
   useEffect(() => {
@@ -37,7 +27,7 @@ const About = function About() {
         }
       });
     }
-  }, [aboutRef, postMarkdown]);
+  }, [aboutRef, markdown]);
 
   return (
     <>
@@ -45,7 +35,7 @@ const About = function About() {
       <Styled.CustomContainer id="main-content" ref={aboutRef}>
         <Styled.StaticPageWrapper>
           <span>
-            <Styled.Markdown>{postMarkdown}</Styled.Markdown>
+            <Styled.Markdown>{markdown}</Styled.Markdown>
           </span>
         </Styled.StaticPageWrapper>
       </Styled.CustomContainer>

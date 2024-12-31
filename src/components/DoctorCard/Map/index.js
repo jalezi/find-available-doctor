@@ -1,5 +1,5 @@
-import { MAP } from 'const';
-import Leaflet, { Markers } from 'components/Shared/Leaflet';
+import { MAP } from '@/const';
+import Leaflet, { Markers } from '@/components/Shared/Leaflet';
 import PropTypes from 'prop-types';
 import MapEvents from './MapEvents';
 import { DoctorPropType } from '../../../types';

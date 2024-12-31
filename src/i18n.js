@@ -19,6 +19,8 @@ export const languages = [
 
 export const supportedLanguages = languages.map(value => value.code);
 
+const lng = import.meta.env.VITE_REACT_APP_DEFAULT_LANGUAGE;
+
 i18next
   // .use(Backend) // load translations using http (default public/assets/locals/en/translations)
   .use(LanguageDetector)
@@ -34,7 +36,7 @@ i18next
       hu: { translation: hu },
       de: { translation: de },
     },
-    lng: process.env.REACT_APP_DEFAULT_LANGUAGE, // if you're using a language detector, do not define the lng option
+    lng, // if you're using a language detector, do not define the lng option
     fallbackLng: ['en', 'sl'], // https://www.i18next.com/principles/fallback#fallback-to-different-languages
     detection: {
       order: ['path', 'cookie', 'navigator', 'localStorage', 'subdomain', 'queryString', 'htmlTag'],

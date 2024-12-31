@@ -5,10 +5,12 @@ export const Dynamic = function Dynamic({ title, meta, lang }) {
   return <Helmet title={title} htmlAttributes={{ lang }} meta={meta} />;
 };
 
+const lang = import.meta.env.VITE_REACT_APP_DEFAULT_LANGUAGE;
+
 Dynamic.defaultProps = {
   title: 'Zdravniki - Sledilnik',
   meta: [],
-  lang: process.env.REACT_APP_DEFAULT_LANGUAGE,
+  lang,
 };
 
 Dynamic.propTypes = {

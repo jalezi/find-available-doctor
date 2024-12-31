@@ -1,6 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
-import { Loader } from 'components/Shared';
+import { Loader } from '@/components/Shared';
 import { HelmetProvider } from 'react-helmet-async';
 import PropTypes from 'prop-types';
 import i18n from 'i18next';
@@ -39,7 +39,7 @@ IsWrongLanguage.propTypes = {
 const Router = function Router() {
   const { pathname } = useLocation();
 
-  const defaultLanguage = process.env.REACT_APP_DEFAULT_LANGUAGE;
+  const defaultLanguage = import.meta.env.VITE_REACT_APP_DEFAULT_LANGUAGE;
   const currentLanguage = i18n.language ?? defaultLanguage;
 
   const pathnameLocale = pathname.split('/')?.[1].toLocaleLowerCase();

@@ -1,11 +1,15 @@
 import { useRef, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { t } from 'i18next';
-import * as SEO from 'components/SEO';
-import { Loader } from 'components/Shared';
+import * as SEO from '@/components/SEO';
+import { Loader } from '@/components/Shared';
 import * as Styled from '../styles/Markdown';
 import Section from './Section';
 import FooterInfoCard from '../../components/Shared/FooterInfo';
+
+const baseUrl = import.meta.env.VITE_REACT_APP_CONTENT_ENDPOINT_BASE;
+
+console.log('baseUrl', baseUrl);
 
 const Faq = function Faq() {
   const { lng } = useParams();
@@ -14,7 +18,7 @@ const Faq = function Faq() {
 
   // fetch data
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_CONTENT_ENDPOINT_BASE}/faq/3/?lang=${lng}`)
+    fetch(`${baseUrl}/faq/3/?lang=${lng}`)
       .then(r => r.json())
       .then(json => {
         setResponse(json);

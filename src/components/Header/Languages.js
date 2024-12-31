@@ -1,5 +1,5 @@
 import { useNavigate, useLocation } from 'react-router-dom';
-import i18next, { languages } from 'i18n';
+import i18next, { languages } from '@/i18n';
 
 const Languages = function Languages() {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { TextareaEdit } from 'components/DoctorCard/ReportError/InlineEdit';
+import { TextareaEdit } from '@/components/DoctorCard/ReportError/InlineEdit';
 
 const apples = 'apples';
 const oranges = 'oranges';
