@@ -102,5 +102,11 @@
     },
     "sozialmarie": {
         "description": "The Doctors Tracker portal was created to bring the healthcare system closer to the patient. In Slovenia, we are facing a shortage of doctors at primary level. This leaves many patients without the basic right of access to a personal GP. In the Scientific association Tracker, we imported the data that was publicly available every 15 days in a spreadsheet that was not user friendly into our portal and allowed users to suggest corrections for faulty data in real time. This gave patients seeking primary care user-friendly and up-to-date information."
+    },
+    "drNoInstId": {
+        "title": "Error",
+        "p1": "We are very sorry, but we could not find the doctor you are looking for. Most likely we don't know his institution.",
+        "p2": "The doctor you are looking for is not in our database. Please check if the doctor is in the ZZZS database, as this is the basis for our data. If the doctor is present there, wait a few days for the changes to appear in our database. Otherwise, please contact",
+        "thanks": "Thank you for your understanding."
     }
 }

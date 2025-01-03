@@ -74,6 +74,12 @@ const Router = function Router() {
           }
         />
         <Route
+          path="/:lng/:type/:name"
+          element={
+            <IsWrongLanguage isValidLanguage={isValidLanguage} lng={langPath} Component={Doctor} />
+          }
+        />
+        <Route
           path="/:lng/:type/:name/:instId"
           element={
             <IsWrongLanguage isValidLanguage={isValidLanguage} lng={langPath} Component={Doctor} />

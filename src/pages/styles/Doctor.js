@@ -1,7 +1,7 @@
 import { styled } from '@mui/material/styles';
 import MuiBox from '@mui/material/Box';
 
-export const Main = styled(MuiBox)(() => ({
+export const Main = styled(MuiBox)(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -9,5 +9,11 @@ export const Main = styled(MuiBox)(() => ({
 
   '@media print': {
     marginTop: '88px',
+  },
+
+  a: {
+    color: theme.customColors.links,
+    fontWeight: 'bold',
+    textDecoration: 'none',
   },
 }));
