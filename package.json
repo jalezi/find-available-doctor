@@ -55,7 +55,7 @@
     "@playwright/test": "^1.46.1",
     "@types/node": "^22.5.0",
     "env-cmd": "^10.1.0",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
