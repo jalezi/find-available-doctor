@@ -11,7 +11,7 @@
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^15.0.5",
     "@testing-library/user-event": "^14.5.2",
-    "i18next": "^23.14.0",
+    "i18next": "^24.0.2",
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^2.6.1",
     "json2mq": "^0.2.0",
