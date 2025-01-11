@@ -1,0 +1,82 @@
+.DashboardCard {
+  --row-gap: 0.5rem;
+  --column-gap: 0.25em;
+  container-name: dashboard-card;
+  container-type: inline-size;
+}
+
+.DashboardCard .Body {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: var(--column-gap);
+}
+
+.Body .Filters {
+  padding-block: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+  color: inherit;
+  display: flex;
+  border-radius: 0;
+}
+
+.Body .Cumulative {
+  padding-block: 0.5rem;
+  display: flex;
+  border-radius: 0;
+}
+
+.Body .Cumulative .Scorecards {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.Body .MapFigureWrapper {
+  position: relative;
+  min-height: 400px;
+}
+
+.MapFigureWrapper > .MapFigure {
+  position: absolute;
+  inset: 0;
+}
+
+.Body .LineChartsWrapper {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.LineChartsWrapper > .LineChartFigureWrapper {
+  position: relative;
+  min-height: 200px;
+}
+
+.LineChartsWrapper > .LineChartFigureWrapper > .ChartFigure {
+  position: absolute;
+  inset: 0;
+}
+
+@container dashboard-card (width >= 768px) {
+  .DashboardCard .Body {
+    grid-template-columns: [first-start] 0.5fr [first-end second-start] 0.5fr [second-end];
+    row-gap: var(--row-gap);
+  }
+
+  .DashboardCard .Body > .FirstColumn {
+    grid-column: first;
+  }
+
+  .DashboardCard .Body > .SecondColumn {
+    grid-column: second;
+  }
+
+  .Body .MapFigureWrapper {
+    grid-row: 2 / 3;
+  }
+
+  .Body .LineChartsWrapper {
+    grid-row: 2 / 3;
+  }
+}

@@ -3,7 +3,7 @@ import IconButton from '@mui/material/IconButton';
 import { ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
 import PropTypes from 'prop-types';
 
-const ExpandMoreButton = styled(({ expand, ...other }) => <IconButton {...other} />)(
+const ExpandMoreButton = styled(({ _expand, ...other }) => <IconButton {...other} />)(
   ({ theme, expand }) => ({
     transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
     marginLeft: 'auto',

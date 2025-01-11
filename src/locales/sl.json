@@ -4,6 +4,7 @@
         "menu": "Meni",
         "home": "Imenik",
         "about": "O projektu",
+        "analytics": "Analitika",
         "faq": "Pojasnila",
         "support": "Podpri!",
         "sledilnik": "Sledilnik.org"
@@ -62,6 +63,7 @@
             "notFound": "404: stran ne obstaja",
             "home": "Zdravniki - Sledilnik",
             "about": "O strani",
+            "analytics": "Analitika",
             "faq": "Pogosta vprašanja"
         }
     },
@@ -95,7 +97,9 @@
     },
     "footer": {
         "dataSource": "Vir podatkov",
-        "lastChange": "Zadnja sprememba"
+        "lastChange": "Zadnja sprememba",
+        "ourProjects": "Naši projekti",
+        "links": "Povezave"
     },
     "orderform": "naročanje",
     "timestamps": {
@@ -104,5 +108,58 @@
     },
     "sozialmarie": {
         "description": "Portal Zdravniki Sledilnik je bil ustvarjen z namenom približevanja osrkbe k pacientu. V Sloveniji se soočamo s pomankanjem zdravnikov na primarnem nivoju. Veliko pacientov je zaradi tega brez osnovne pravice dostopa do opredelitve osebnega zdravnika. V Znanstvenem društvu Sledilnik smo podatke, ki so se javno objavljali na 15 dni v nepregledni razpredelnici uvozili v naš portal ter omogočali uporabnikom, da podatke posodabljajo v realnem času. Tako smo pacientom, ki so iskali oskrbo na primarnem nivoju omogočili prijazno uporabniško informacijo ter ažurne informacije."
+    },
+    "analytics": {
+        "common": {
+            "doctorType": "Dejavnost",
+            "municipality": "Občina",
+            "year": "Leto",
+            "selectMunicipality": "Izberi...",
+            "doctorTypes": {
+                "betterAccessibility": "Boljša dostopnost",
+                "gp": "Spl. dejavnost",
+                "gyn": "Ginekologija",
+                "dso": "DSO",
+                "den": "Zobozdravstvo"
+            },
+            "ageGroup": "st. skupina",
+            "contractTypes": {
+                "private": "zasebni",
+                "public": "javni"
+            },
+            "buttons": {
+                "cityMunicipalitiesActive": "Meste občine",
+                "cityMunicipalitiesInactive": "Meste občine"
+            },
+            "data": {
+                "iozRatio": "iozRatio",
+                "insuredPeopleCount": "št. zav.",
+                "insuredPeopleCountWithIOZ": "št. zav. z ioz",
+                "gynDoseganjePovprecja": "gin. avg",
+                "gynObseg": "gin. obseg",
+                "gpGlavarinaMean": "sp. p. glavarina m",
+                "gpGlavarina": "sp. p. glavarina",
+                "gpObseg": "sp. p. obseg",
+                "denDoseganjePovprecja": "zob. avg",
+                "denObseg": "zob. obseg"
+            }
+        },
+        "taskA": {
+            "title": "Task A naslov",
+            "mapTitle": "Naslov zemljevida",
+            "chartTitle": "Naslov line chart",
+            "yAxis": {
+                "title": "$t(analytics.common.data.iozRatio)"
+            }
+        },
+        "taskB": {
+            "title": "Task B naslov"
+        },
+        "taskC": {
+            "title": "Task C naslov"
+        },
+        "taskD": {
+            "title": "Task D naslov"
+        }
     }
 }

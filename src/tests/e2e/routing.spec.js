@@ -49,3 +49,26 @@ test.describe('has correct language', () => {
     await expect(page.locator('html')).toHaveAttribute('lang', 'it');
   });
 });
+
+test.describe('has correct route', () => {
+  test('FAQ page has "sl" lang attribute', async ({ page }) => {
+    await page.goto('/faq');
+
+    // Expect the page to have a lang attribute.
+    await expect(page.locator('html')).toHaveAttribute('lang', 'sl');
+  });
+
+  test('About page has "sl" lang attribute', async ({ page }) => {
+    await page.goto('/about');
+
+    // Expect the page to have a lang attribute.
+    await expect(page.locator('html')).toHaveAttribute('lang', 'sl');
+  });
+
+  test('Analytics page has "sl" lang attribute', async ({ page }) => {
+    await page.goto('/analytics');
+
+    // Expect the page to have a lang attribute.
+    await expect(page.locator('html')).toHaveAttribute('lang', 'sl');
+  });
+});

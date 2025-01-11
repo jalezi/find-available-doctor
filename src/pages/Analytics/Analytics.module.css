@@ -1,0 +1,52 @@
+.Analytics {
+  --radius: 0.5rem;
+
+  --background: oklch(0.98 0 0);
+  --foreground: oklch(0 0 0 / 97); /* vscode bug: no contrast; value: 0 0 0 / 87 */
+  --card: oklch(0.98 0 0);
+  --card-foreground: oklch(0 0 0 / 97); /* vscode bug: no contrast; value: 0 0 0 / 87 */
+
+  --border: oklch(0.93 0 0);
+  --muted-foreground: oklch(0.41 0 0);
+
+  display: grid;
+  grid-template-columns: 1;
+
+  background: #ffffff;
+  align-items: start;
+}
+
+figure:where(:has(div[data-highcharts-chart])) {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 900px) {
+  .Analytics {
+    grid-template-columns: 250px 1fr;
+  }
+}
+
+.MainTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.PageContent {
+  margin-bottom: 2rem;
+}
+
+.SectionTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.ChartSection:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.ChartSection > *:not(:last-child) {
+  margin-bottom: 2rem;
+}

@@ -51,6 +51,12 @@ import { ReactComponent as Edit } from 'assets/icon-edit.svg';
 import { ReactComponent as Email } from 'assets/icon-email.svg';
 import { ReactComponent as ClinicViolet } from 'assets/icon-clinic--violet.svg';
 import { ReactComponent as GpFloatingBlue } from 'assets/icon-gp-floating--blue.svg';
+import { ReactComponent as GitHub } from 'assets/icon-github.svg';
+import { ReactComponent as Euro } from 'assets/icon-euro.svg';
+import { ReactComponent as FullScreen } from 'assets/icon-full-screen.svg';
+import { ReactComponent as Print } from 'assets/icon-print.svg';
+import { ReactComponent as VerticalDots } from 'assets/vertical-dots.svg';
+import { ReactComponent as Chart } from 'assets/icon-chart.svg';
 
 export {
   Menu as MenuIcon,
@@ -67,6 +73,11 @@ export {
   Link as LinkIcon,
   PhoneEnabled as PhoneEnabledIcon,
   ExpandMore as ExpandMoreIcon,
+  TrendingFlat as TrendingFlatIcon,
+  TrendingUp as TrendingUpIcon,
+  TrendingDown as TrendingDownIcon,
+  PlayArrow as PlayArrowIcon,
+  Pause as PauseIcon,
 } from '@mui/icons-material';
 
 const icons = {
@@ -121,6 +132,12 @@ const icons = {
   Email,
   ClinicViolet,
   GpFloatingBlue,
+  GitHub,
+  Euro,
+  FullScreen,
+  Print,
+  VerticalDots,
+  Chart,
 };
 
 export const Icon = function Icon({ name, ...props }) {

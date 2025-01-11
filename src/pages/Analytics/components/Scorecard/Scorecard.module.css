@@ -1,0 +1,64 @@
+.Scorecard {
+  --danger: #dc3435;
+  --success: #95c83f;
+  --warn: #ffa500;
+  --border: transparent;
+  background: transparent;
+  border-radius: 0;
+}
+
+.Danger {
+  color: var(--danger);
+}
+
+.Success {
+  color: var(--success);
+}
+
+.Warn {
+  color: var(--warn);
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.Label {
+  color: var(--muted-foreground);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  min-height: 1.5rem;
+  font-weight: 500;
+}
+
+.Value {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.ChangeDirection {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.DescriptionValue {
+  color: var(--muted-foreground);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.DescriptionChangeDirection {
+  color: var(--muted-foreground);
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.5rem; /* match icon height */
+}

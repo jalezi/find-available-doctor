@@ -1,0 +1,84 @@
+.ReactSelect {
+  --bcg-color: #ffffff;
+  --hover-color: rgba(9, 178, 220, 0.76);
+  --select-padding-inline: 0.7em;
+  --indicator-color: var(--border);
+}
+
+.ReactSelectControl {
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
+
+.ReactSelectControl > div:first-child {
+  padding-inline: var(--select-padding-inline);
+}
+
+.ReactSelectControl:hover {
+  --border: var(--hover-color);
+  --indicator-color: rgba(186, 186, 186, 1); /* converted from oklch(0.73 0 0) */
+}
+
+.ReactSelectControlIsFocused,
+.ReactSelectControlIsFocused:hover {
+  --border: var(--hover-color);
+  --indicator-color: rgba(128, 128, 128, 1); /* converted from oklch(0.5 0 0) */
+  box-shadow: 0 0 7px 0 var(--hover-color);
+}
+
+.ReactSelectDropdownIndicator {
+  color: var(--indicator-color);
+  padding: 0.5em;
+  display: flex;
+  cursor: pointer;
+}
+
+.ReactSelectDropdownIndicatorIsOpen {
+  rotate: 180deg;
+}
+
+.ReactSelectIndicatorSeparator {
+  background-color: rgba(212, 212, 212, 1); /* converted from oklch(0.83 0 0) */
+  margin-block: 0.5em;
+}
+
+.ReactSelectInput {
+  cursor: pointer;
+}
+
+.ReactSelectMenu {
+  background-color: var(--bcg-color);
+  padding-block: 0.25em;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.ReactSelectMenuList {
+  background-color: var(--bcg-color);
+}
+
+.ReactSelectNoOptionsMessage {
+  padding: var(--select-padding-inline);
+}
+
+.ReactSelectOption {
+  background-color: var(--bcg-color);
+  padding-block: 0.5em;
+  padding-inline: var(--select-padding-inline);
+
+  cursor: pointer;
+}
+
+.ReactSelectOption:hover,
+.ReactSelectOptionIsFocused {
+  --bcg-color: rgba(9, 175, 218, 0.26);
+}
+
+.ReactSelectOptionIsSelected {
+  --bcg-color: rgba(9, 175, 218, 1);
+  color: #ffffff;
+  font-weight: 500;
+}
+.ReactSelectOptionIsSelected:hover {
+  --bcg-color: rgba(9, 175, 218, 1);
+}

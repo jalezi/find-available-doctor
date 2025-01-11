@@ -1,0 +1,23 @@
+.Buttons {
+  --color: currentColor;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  padding-inline: 0.5em;
+  padding-block: 0.25em;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  background-color: transparent;
+  color: var(--color);
+}
+
+.Buttons:hover {
+  opacity: 1;
+}
+
+.Buttons[data-state='inactive'] {
+  text-decoration: line-through;
+}
+
+.Buttons[data-state='active'] {
+  text-decoration: none;
+}

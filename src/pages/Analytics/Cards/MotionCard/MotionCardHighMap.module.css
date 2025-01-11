@@ -1,0 +1,144 @@
+.ParentWrapper {
+  container-name: motion-wrapper;
+  container-type: inline-size;
+}
+
+.Wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5em;
+}
+
+.Map {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.Chart {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.Controls {
+  --color-controls: oklch(0.59 0.11 218);
+  --color-controls-accent: oklch(0.68 0.11 218);
+  --color-controls-button: #ffffff;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Output {
+  font-size: 1.5rem;
+}
+
+.PlayControls {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+.PlayButton {
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  width: 2.25rem;
+  aspect-ratio: 1;
+  cursor: pointer;
+  background-color: var(--color-controls);
+  color: var(--color-controls-button);
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.PlayButton[data-playing] {
+  background-color: var(--color-controls-accent);
+}
+.PlayButton[data-playing]:hover {
+  background-color: var(--color-controls);
+}
+
+.PlayButton:hover {
+  background-color: var(--color-controls-accent);
+}
+
+.Label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.Range {
+  --slider-value: 0%;
+  --slider-color-future: var(--color-controls-accent);
+  --slider-color-past: var(--color-controls);
+  flex-grow: 1;
+
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.5rem;
+  background: linear-gradient(
+    to right,
+    var(--slider-color-future) 0%,
+    var(--slider-color-future) var(--slider-value, 0%),
+    var(--slider-color-past) var(--slider-value, 0%),
+    var(--slider-color-past) 100%
+  );
+  border-radius: 0.25rem;
+  border: 1px solid var(--colo-controls);
+  outline: none;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.Range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.Range::-webkit-slider-thumb,
+.Range::-moz-range-thumb {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--color-controls-button);
+  cursor: pointer;
+  border: 1px solid var(--color-controls);
+}
+
+@container motion-wrapper (width >= 400px) {
+  .Wrapper {
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .Map {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .Chart {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .Controls {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+
+@container motion-wrapper (width >= 600px) {
+  .Wrapper {
+    grid-template-columns: 4fr 5fr;
+  }
+}

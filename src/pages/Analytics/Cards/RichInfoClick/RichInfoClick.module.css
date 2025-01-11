@@ -1,0 +1,9 @@
+.RichInfoClick .SecondFigure {
+  height: 100px;
+  overflow: hidden;
+}
+
+.RichInfoClick .SecondFigure.Expanded {
+  height: auto;
+  overflow: auto;
+}

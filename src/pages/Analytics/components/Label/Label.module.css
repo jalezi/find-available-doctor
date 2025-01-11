@@ -1,0 +1,4 @@
+.Label {
+  color: var(--muted-foreground);
+  font-weight: 400;
+}

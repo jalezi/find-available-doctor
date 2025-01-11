@@ -130,7 +130,7 @@ export const IconButton = styled(IconButtonBase)(() => ({
 export const AppNavBar = styled(AppBar)(({ theme }) => ({
   flexGrow: 1,
   zIndex: 11,
-  position: 'relative',
+  position: 'sticky',
   backgroundColor: theme.customColors.brand,
   color: theme.customColors.dark,
   boxShadow: 'none',

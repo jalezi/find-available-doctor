@@ -1,0 +1,42 @@
+.SeriesButton {
+  padding: 0.1em 0.4em;
+  border-radius: 6px;
+  background: #f4f8f8;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.SeriesButton[data-visible='false'] {
+  text-decoration: line-through;
+}
+
+.SeriesButton:hover {
+  background: #f4f8f8;
+}
+
+.SeriesButton:focus-visible {
+  outline: 2px solid #333;
+}
+
+.SeriesButton.DynamicColor {
+  background-color: var(--bg, #333);
+  --l-threshold: 0.66;
+  --diff: calc(var(--l-threshold) - l);
+  color: oklch(from var(--bg) clamp(0.05, max(min(var(--diff) * infinity, 1), 0), 1) c h);
+}
+
+.SeriesButton.DynamicColor.IsVisible {
+  opacity: 0.85;
+}
+
+.SeriesButton.DynamicColor:hover {
+  opacity: 0.85;
+}
+
+.SeriesButton.DynamicColor.IsVisible:hover {
+  opacity: 1;
+}

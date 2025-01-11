@@ -1,0 +1,14 @@
+.FiltersWrapper {
+  display: inline-flex;
+  gap: 0.5em;
+}
+
+.FiltersWrapper:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.FiltersWrapper > label > select {
+  /* XXX temporary replacing inline styles */
+  padding: 0.25rem 1rem;
+  border-radius: 0.25em;
+}

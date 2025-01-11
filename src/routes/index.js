@@ -10,6 +10,7 @@ const About = lazy(() => import('../pages/About'));
 const Faq = lazy(() => import('../pages/Faq'));
 const Doctor = lazy(() => import('../pages/Doctor'));
 const PageNotFound = lazy(() => import('../pages/PageNotFound'));
+const Analytics = lazy(() => import('../pages/Analytics'));
 
 const IsWrongLanguage = function IsWrongLanguage({ isValidLanguage, Component }) {
   const { pathname } = useLocation();
@@ -65,6 +66,16 @@ const Router = function Router() {
           path="/:lng/about"
           element={
             <IsWrongLanguage isValidLanguage={isValidLanguage} lng={langPath} Component={About} />
+          }
+        />
+        <Route
+          path="/:lng/analytics"
+          element={
+            <IsWrongLanguage
+              isValidLanguage={isValidLanguage}
+              lng={langPath}
+              Component={Analytics}
+            />
           }
         />
         <Route

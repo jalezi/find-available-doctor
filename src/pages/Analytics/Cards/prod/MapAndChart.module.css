@@ -1,0 +1,75 @@
+.MapAndChart {
+  container-name: something;
+  container-type: inline-size;
+  overflow: clip;
+}
+
+.Grid {
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    'header'
+    'separator'
+    'filters'
+    'scorecards'
+    'map'
+    'chart';
+}
+
+.Header {
+  grid-area: header;
+}
+
+.FiltersContainer {
+  grid-area: filters;
+  position: sticky;
+  top: 57px;
+  background: oklch(0.98 0 0 / 0.65);
+  z-index: 1;
+  box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.ScorecardsContainer {
+  grid-area: scorecards;
+  display: flex;
+  gap: 0.5em;
+  justify-content: end;
+}
+
+.MapContainer {
+  grid-area: map;
+  place-self: center;
+  min-width: 400px;
+  width: 100%;
+}
+
+.ChartContainer {
+  grid-area: chart;
+}
+
+@container something (width >= 768px) {
+  .Grid {
+    grid-template-areas:
+      'header header'
+      'separator separator'
+      'filters filters'
+      'map scorecards'
+      'map chart';
+  }
+
+  .MapContainer {
+    min-width: 400px;
+    width: 100%;
+  }
+
+  .ChartContainer {
+    max-width: 470px;
+  }
+}
+
+@media screen and (min-width > 600) {
+  .FiltersContainer {
+    top: 65px;
+  }
+}

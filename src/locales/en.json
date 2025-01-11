@@ -4,6 +4,7 @@
         "menu": "Menu",
         "home": "Home",
         "about": "About",
+        "analytics": "Analytics",
         "faq": "FAQ",
         "support": "Support!",
         "sledilnik": "Sledilnik.org"
@@ -59,6 +60,7 @@
         "title": {
             "notFound": "404: page not found",
             "home": "Doctors - Sledilnik",
+            "analytics": "Analytics",
             "about": "About",
             "faq": "FAQ"
         }
@@ -93,7 +95,9 @@
     },
     "footer": {
         "dataSource": "Data source",
-        "lastChange": "Last data update on"
+        "lastChange": "Last data update on",
+        "ourProjects": "Our projects",
+        "links": "Links"
     },
     "orderform": "get appointment",
     "timestamps": {
@@ -102,5 +106,57 @@
     },
     "sozialmarie": {
         "description": "The Doctors Tracker portal was created to bring the healthcare system closer to the patient. In Slovenia, we are facing a shortage of doctors at primary level. This leaves many patients without the basic right of access to a personal GP. In the Scientific association Tracker, we imported the data that was publicly available every 15 days in a spreadsheet that was not user friendly into our portal and allowed users to suggest corrections for faulty data in real time. This gave patients seeking primary care user-friendly and up-to-date information."
+    },
+    "analytics": {
+        "common": {
+            "doctorType": "Activity",
+            "municipality": "Municipality",
+            "year": "Year",
+            "selectMunicipality": "Select...",
+            "doctorTypes": {
+                "betterAccessibility": "Better Accessibility",
+                "gp": "General Practice",
+                "gyn": "Gynecology",
+                "dso": "DSO",
+                "den": "Dentist"
+            },
+            "ageGroup": "Age Group",
+            "contractTypes": {
+                "private": "private",
+                "public": "public"
+            },
+            "buttons": {
+                "cityMunicipalitiesActive": "Cities",
+                "cityMunicipalitiesInactive": "Cities"
+            },
+            "data": {
+                "iozRatio": "iozRatio",
+                "insuredPeopleCount": "Insured",
+                "insuredPeopleCountWithIOZ": "Insured with ioz",
+                "gynObseg": "gyn. obseg",
+                "gpGlavarinaMean": "gp glavarina m",
+                "gpGlavarina": "gp glavarina",
+                "gpObseg": "gp obseg",
+                "denDoseganjePovprecja": "den avg",
+                "denObseg": "den obseg"
+            }
+        },
+        "taskA": {
+            "title": "Task A title",
+            "mapTitle": "Naslov zemljevida",
+            "chartTitle": "Naslov line chart",
+            "yAxis": {
+                "title": "$t(analytics.common.data.iozRatio)"
+            }
+        },
+        "taskB": {
+            "title": "Task B title"
+        },
+        "taskC": {
+            "title": "Task C title"
+        },
+        "taskD": {
+            "title": "Task D title"
+        }
     }
 }
