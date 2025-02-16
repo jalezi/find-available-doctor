@@ -1,0 +1,94 @@
+.Layout > *,
+.FullWidth > * {
+  grid-column: content;
+}
+.Layout,
+.FullWidth {
+  --minimum-content-padding: 0.8rem;
+
+  /** TRACK WIDTHS **/
+  --full-max-width: 1fr;
+  --popout-max-width: 1400px;
+  --content-max-width: 1120px;
+  --narrow-max-width: 1060px;
+
+  /** TRACK SIZES **/
+  --full: minmax(var(--minimum-content-padding), 1fr);
+  --popout: minmax(0, calc((var(--popout-max-width) - var(--content-max-width)) * 0.5));
+  --content: minmax(0, calc((var(--content-max-width) - var(--narrow-max-width)) * 0.5));
+  --narrow: min(var(--narrow-max-width), 100% - var(--minimum-content-padding) * 2);
+
+  display: grid;
+  grid-template-columns:
+    [full-start]
+    var(--full)
+    [popout-start]
+    var(--popout)
+    [content-start]
+    var(--content)
+    [narrow-start]
+    var(--narrow)
+    [narrow-end]
+    var(--content)
+    [content-end]
+    var(--popout)
+    [popout-end]
+    var(--full)
+    [full-end];
+
+  @media screen and (width > 599.99px) {
+    --minimum-content-padding: 1.5rem;
+  }
+}
+
+/** CLASSES **/
+.Full {
+  grid-column: full;
+}
+.FullStart {
+  grid-column-start: full-start;
+}
+.FullEnd {
+  grid-column-end: full-end;
+}
+
+.Popout {
+  grid-column: popout;
+}
+.PopoutStart {
+  grid-column-start: popout-start;
+}
+.PopoutEnd {
+  grid-column-end: popout-end;
+}
+
+.Content {
+  grid-column: content;
+}
+.ContentStart {
+  grid-column-start: content-start;
+}
+.ContentEnd {
+  grid-column-end: content-end;
+}
+
+.Narrow {
+  grid-column: narrow;
+}
+.NarrowStart {
+  grid-column-start: narrow-start;
+}
+.NarrowEnd {
+  grid-column-end: narrow-end;
+}
+
+.FullWidth {
+  grid-column: full;
+}
+.FullContent,
+.FullContentNopad {
+  grid-column: full;
+}
+.FullContent {
+  padding-inline: var(--minimum-content-padding);
+}

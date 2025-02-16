@@ -1,0 +1,32 @@
+.TooltipTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.TooltipTable th,
+.TooltipTable td {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+.TooltipTable th.Center,
+.TooltipTable td.Center {
+  text-align: center;
+}
+
+.TooltipTable td.Right {
+  text-align: right;
+}
+
+.SeriesLabel {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+}
+
+.SeriesIndicator {
+  margin-right: auto;
+  width: 0.5em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}

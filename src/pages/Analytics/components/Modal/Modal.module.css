@@ -1,0 +1,51 @@
+.CustomDialog {
+  right: 1em;
+  padding-block: 1em;
+  padding-left: 1em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  min-width: 30ch;
+}
+
+.CustomDialog[open] {
+  margin: auto;
+}
+
+body:has(.CustomDialog[open]) {
+  overflow: hidden;
+}
+
+.CustomDialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9001;
+  width: 100%;
+}
+
+.Content {
+  width: 100%;
+}
+
+.CloseButton {
+  display: block;
+  margin-top: 1em;
+  margin-inline: auto;
+  color: inherit;
+  border-radius: 8px;
+  border: none;
+  padding-inline: 1em;
+  padding-block: 0.25em;
+  background: rgba(38, 197, 237, 0.56);
+  transition: all 0.3s ease;
+}
+
+.CloseButton:hover {
+  background: rgba(38, 197, 237, 1);
+}
+
+.CloseButton:focus-visible {
+  outline: 2px auto #09afda;
+}
+
+.CloseButton kbd {
+  font-size: 1rem;
+}

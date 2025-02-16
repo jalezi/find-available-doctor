@@ -1,0 +1,111 @@
+.CardWrapper {
+  --cards-filters-background: rgba(255, 255, 255, 0.65);
+  --cards-filters-boxshadow: 0 2px 6px 0px rgba(0, 0, 0, 0.1);
+  --hover-color: rgba(9, 178, 220, 0.76);
+
+  container-name: card-container;
+  container-type: inline-size;
+  overflow: clip;
+}
+
+.Grid {
+  position: relative;
+  display: grid;
+}
+
+.SingleChartGrid {
+  grid-template-areas:
+    'header'
+    'separator'
+    'filters'
+    'scorecards'
+    'chart';
+}
+
+.DoubleChartGrid {
+  grid-template-areas:
+    'header'
+    'separator'
+    'filters'
+    'scorecards'
+    'map'
+    'chart';
+}
+
+.Header {
+  grid-area: header;
+}
+
+.Separator {
+  grid-area: separator;
+}
+
+.FiltersWrapper {
+  grid-area: filters;
+  position: sticky;
+  top: 57px;
+  background: var(--cards-filters-background);
+  z-index: 1;
+  box-shadow: var(--cards-filters-boxshadow);
+  backdrop-filter: blur(10px);
+}
+
+.ScorecardsWrapper {
+  grid-area: scorecards;
+  display: flex;
+  gap: 0.5em;
+  justify-content: end;
+}
+
+.MapWrapper {
+  grid-area: map;
+  place-self: center;
+  width: 100%;
+}
+
+.ChartWrapper {
+  grid-area: chart;
+}
+
+.IconButton {
+  background-color: inherit;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25em;
+  border: 1px solid currentColor;
+  cursor: pointer;
+}
+
+.IconButton:hover,
+.IconButton:focus-visible {
+  box-shadow: 0 0 7px 0 var(--hover-color);
+  border-color: var(--hover-color);
+}
+
+@container card-container (width >= 768px) {
+  .DoubleChartGrid {
+    grid-template-areas:
+      'header header'
+      'separator separator'
+      'filters filters'
+      'map scorecards'
+      'map chart';
+  }
+
+  .DoubleChartGrid > .MapWrapper {
+    min-width: 400px;
+    width: 100%;
+  }
+
+  .DoubleChartGrid > .ChartWrapper {
+    max-width: 470px;
+  }
+}
+
+@media screen and (min-width > 600) {
+  .FiltersWrapper {
+    top: 65px;
+  }
+}

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { CardActions, Divider, IconButton, ListItemIcon, MenuItem } from '@mui/material';
-import { MoreVert as MoreVertIcon } from '@mui/icons-material/';
+import { MoreVert as MoreVertIcon } from '@mui/icons-material';
 import { t } from 'i18next';
 
 import * as Icons from 'components/Shared/Icons';

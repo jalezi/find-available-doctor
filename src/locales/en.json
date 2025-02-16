@@ -1,106 +1,235 @@
 {
-    "loading": "Loading…",
-    "header": {
-        "menu": "Menu",
-        "home": "Home",
-        "about": "About",
-        "faq": "FAQ",
-        "support": "Support!",
-        "sledilnik": "Sledilnik.org"
+  "loading": "Loading…",
+  "header": {
+    "menu": "Menu",
+    "home": "Home",
+    "about": "About",
+    "analytics": "Analytics",
+    "faq": "FAQ",
+    "support": "Support!",
+    "sledilnik": "Sledilnik.org"
+  },
+  "accepts": "accepting",
+  "rejects": "not accepting",
+  "all": "all",
+  "generalPractitioner": "general practitioner",
+  "dentist": "dentist",
+  "pediatrician": "pediatrician",
+  "gynecologist": "gynecologist",
+  "adults": "adults",
+  "students": "students",
+  "youth": "youth",
+  "floatingClinic": "Infirmary for patients without doctors",
+  "clinicForBetterAccessibility": "Clinic for better accessibility",
+  "clinicForBetterAccessibilityDesc": "In clinics for better accessibility, insured persons who do not have a personal doctor (GP or Pediatrician) can choose their personal doctor (in case there is no available doctor or if the chosen personal doctor is permanently absent).",
+  "doctorCard": {
+    "more": "More",
+    "showOnMap": "Show on map",
+    "noPhone": "Phone number not available"
+  },
+  "search": "Search…",
+  "filter": "Filter",
+  "map": "Map",
+  "list": "List",
+  "totalResults_one": "{{count}} hit",
+  "totalResults_other": "{{count}} hits",
+  "noResults": "No doctor found based on your search criteria. Check if you have the right doctor type selected or zoom out the map.",
+  "changedOn": "Changed on: ",
+  "headQuotient": "Capitation",
+  "achievingAverageOE": "Achieving average OE",
+  "doctorAvailabilityLabel": "Availability",
+  "doctorAvailability": "Availability can be lower than 100% for doctors that work part time on preventive programs or in other units (e.g. dentist working with adults and youth).",
+  "yourLocation": "Your location",
+  "toContent": "To content",
+  "findAvailableDoctor": "Find available doctor",
+  "showAll": "Show all",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "backToHome": "Back home",
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "In case of medical emergency you should contact emergency services or call 112.",
+    "glossary": "Glossary"
+  },
+  "pageNotFound": {
+    "somethingWentWrong": "oops… something went wrong :(",
+    "back": "Back",
+    "imageDescription": "a shrugging doctor"
+  },
+  "SEO": {
+    "title": {
+      "notFound": "404: page not found",
+      "home": "Doctors - Sledilnik",
+      "analytics": "Analytics",
+      "about": "About",
+      "faq": "FAQ"
+    }
+  },
+  "reportError": {
+    "title": "Report error",
+    "tooltip": "Report error in doctor data",
+    "text": "Report error in doctor data and add the correct data or notes:",
+    "cancel": "Cancel",
+    "send": "Send",
+    "reset": "Reset",
+    "reportReceived": "Thank you! We will look into it.",
+    "reportError": "Error reporting failed. Please try again later.",
+    "reportNoChange": "No data has been changed",
+    "placeholder": {
+      "address": "address",
+      "website": "web page",
+      "phone": "phone",
+      "email": "email",
+      "orderform": "link to order page",
+      "availability": "availability",
+      "note": "note"
     },
-    "accepts": "accepting",
-    "rejects": "not accepting",
-    "all": "all",
-    "generalPractitioner": "general practitioner",
-    "dentist": "dentist",
-    "pediatrician": "pediatrician",
-    "gynecologist": "gynecologist",
-    "adults": "adults",
-    "students": "students",
-    "youth": "youth",
-    "floatingClinic": "Infirmary for patients without doctors",
-    "clinicForBetterAccessibility": "Clinic for better accessibility",
-    "clinicForBetterAccessibilityDesc": "In clinics for better accessibility, insured persons who do not have a personal doctor (GP or Pediatrician) can choose their personal doctor (in case there is no available doctor or if the chosen personal doctor is permanently absent).",
-    "doctorCard": {
-        "more": "More",
-        "showOnMap": "Show on map",
-        "noPhone": "Phone number not available"
+    "confirmation": {
+      "title": "Confirm",
+      "warningText": "This form is NOT intended to request an appointment for medical examination or consultation. To make an appointment, contact your chosen doctor.",
+      "text": "Are you sure you want to suggest a data update?"
+    }
+  },
+  "error": {
+    "title": "Something went wrong"
+  },
+  "footer": {
+    "dataSource": "Data source",
+    "lastChange": "Last data update on",
+    "ourProjects": "Our projects",
+    "links": "Links"
+  },
+  "orderform": "get appointment",
+  "timestamps": {
+    "datetime": "{{val, datetime}}",
+    "at": "at"
+  },
+  "sozialmarie": {
+    "description": "The Doctors Tracker portal was created to bring the healthcare system closer to the patient. In Slovenia, we are facing a shortage of doctors at primary level. This leaves many patients without the basic right of access to a personal GP. In the Scientific association Tracker, we imported the data that was publicly available every 15 days in a spreadsheet that was not user friendly into our portal and allowed users to suggest corrections for faulty data in real time. This gave patients seeking primary care user-friendly and up-to-date information."
+  },
+  "analytics": {
+    "sectionTitle": {
+      "1": "EN: Analitični prikaz podatkov o dostopnosti do primarne zdravstvene oskrbe",
+      "2": "Dev Examples"
     },
-    "search": "Search…",
-    "filter": "Filter",
-    "map": "Map",
-    "list": "List",
-    "totalResults_one": "{{count}} hit",
-    "totalResults_other": "{{count}} hits",
-    "noResults": "No doctor found based on your search criteria. Check if you have the right doctor type selected or zoom out the map.",
-    "changedOn": "Changed on: ",
-    "headQuotient": "Capitation",
-    "achievingAverageOE": "Achieving average OE",
-    "doctorAvailabilityLabel": "Availability",
-    "doctorAvailability": "Availability can be lower than 100% for doctors that work part time on preventive programs or in other units (e.g. dentist working with adults and youth).",
-    "yourLocation": "Your location",
-    "toContent": "To content",
-    "findAvailableDoctor": "Find available doctor",
-    "showAll": "Show all",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "backToHome": "Back home",
-    "faq": {
-        "title": "Frequently Asked Questions",
-        "description": "In case of medical emergency you should contact emergency services or call 112.",
-        "glossary": "Glossary"
+    "touchDevice": {
+      "text": "Use desktop for the best experience.",
+      "checkboxLabel": "Don't show this message"
     },
-    "pageNotFound": {
-        "somethingWentWrong": "oops… something went wrong :(",
-        "back": "Back",
-        "imageDescription": "a shrugging doctor"
+    "sidebar": {
+      "title": "Charts"
     },
-    "SEO": {
-        "title": {
-            "notFound": "404: page not found",
-            "home": "Doctors - Sledilnik",
-            "about": "About",
-            "faq": "FAQ"
-        }
+    "common": {
+      "doctorType": "Activity",
+      "municipality": "Municipality",
+      "municipalities": "municipalities",
+      "year": "Year",
+      "selectMunicipality": "Select...",
+      "doctorTypes": {
+        "betterAccessibility": "Better Accessibility",
+        "gp": "General Practice",
+        "gyn": "Gynecology",
+        "dso": "DSO",
+        "den": "Dentist"
+      },
+      "ageGroup": "Age Group",
+      "contractTypes": {
+        "private": "private",
+        "public": "public"
+      },
+      "buttons": {
+        "cityMunicipalitiesActive": "Cities",
+        "cityMunicipalitiesInactive": "Cities",
+        "clearAll": "clear selection",
+        "allCities": "All municipalities",
+        "close": "Close",
+        "mapSettings": "map options",
+        "min": "min",
+        "max": "max",
+        "selected": "selection",
+        "reset": "$t(reportError.reset)",
+        "export": "Export"
+      },
+      "data": {
+        "iozRatio": "ratio withIOZ/all",
+        "insuredPeopleCount": "Insured",
+        "insuredPeopleCountWithIOZ": "Insured with ioz",
+        "insuredPeopleCountWithoutIOZ": "Insured without ioz",
+        "gynDoseganjePovprecja": "$t(analytics.common.doctorTypes.gyn)",
+        "gynObseg": "$t(analytics.common.doctorTypes.gyn)",
+        "gpGlavarinaMean": "povprečna glavarina na izvajalca programa",
+        "gpGlavarina": "skupna glavarina vseh programov glede na lastništvo izvajalca",
+        "gpObseg": "$t(analytics.common.doctorTypes.gp)",
+        "denDoseganjePovprecja": "$t(analytics.common.doctorTypes.den)",
+        "denObseg": "$t(analytics.common.doctorTypes.den)",
+        "capitation": "Capitation",
+        "vol": "Volume",
+        "avg": "Average",
+        "private": "private",
+        "public": "public"
+      }
     },
-    "reportError": {
-        "title": "Report error",
-        "tooltip": "Report error in doctor data",
-        "text": "Report error in doctor data and add the correct data or notes:",
-        "cancel": "Cancel",
-        "send": "Send",
-        "reset": "Reset",
-        "reportReceived": "Thank you! We will look into it.",
-        "reportError": "Error reporting failed. Please try again later.",
-        "reportNoChange": "No data has been changed",
-        "placeholder": {
-            "address": "address",
-            "website": "web page",
-            "phone": "phone",
-            "email": "email",
-            "orderform": "link to order page",
-            "availability": "availability",
-            "note": "note"
+    "taskA": {
+      "title": "EN Neopredeljeni v Sloveniji",
+      "mapTitle": "$t(analytics.taskA.title): {{suffix}}",
+      "mapTitleSuffix": "Delež opredeljenih po občinah",
+      "mapSubtitle": "{{doctorType}} za {{year}}",
+      "chartTitle": "$t(analytics.taskA.title): {{suffix}}",
+      "chartTitleSuffix": "Trend skozi čas",
+      "chartSubtitle": "{{doctorType}} po starostnih skupinah",
+      "yAxis": {
+        "title": "$t(analytics.common.data.iozRatio)"
+      },
+      "menu": "$t(header.menu)",
+      "export": "$t(analytics.common.buttons.export)"
+    },
+    "taskD": {
+      "title": "EN Primerjava glede na status izvajalca (javni-zasebni)",
+      "chart": {
+        "title": "{{value}}: $t(analytics.taskD.title)",
+        "yAxis": {
+          "titles": {
+            "gynDoseganjePovprecja": "delež doseganja sl. povprečja obsega dela",
+            "gynObseg": "št. programov",
+            "gpGlavarinaMean": "povprečna glavarina na 1 izvajalca",
+            "gpGlavarina": "glavarina",
+            "gpObseg": "št. programov",
+            "denDoseganjePovprecja": "delež doseganja sl. povprečja obsega dela",
+            "denObseg": "št. programov"
+          }
         },
-        "confirmation": {
-            "title": "Confirm",
-            "warningText": "This form is NOT intended to request an appointment for medical examination or consultation. To make an appointment, contact your chosen doctor.",
-            "text": "Are you sure you want to suggest a data update?"
+        "series": {
+          "public": "$t(analytics.common.data.public)",
+          "private": "$t(analytics.common.data.private)"
         }
+      },
+      "menu": "$t(header.menu)",
+      "export": "$t(analytics.common.buttons.export)"
     },
-    "error": {
-        "title": "Something went wrong"
+    "taskSpecial": {
+      "title": "EN Gibanje števila neopredeljenih skozi čas",
+      "chart": {
+        "title": "{{value}}: $t(analytics.taskSpecial.title)",
+        "yAxis": {
+          "0": {
+            "title": "EN št. zavarovancev"
+          },
+          "1": {
+            "title": "EN delež neopredeljenih"
+          }
+        },
+        "series": {
+          "insuredPeopleCount": "$t(analytics.common.data.insuredPeopleCount)",
+          "insuredPeopleCountWithIOZ": "$t(analytics.common.data.insuredPeopleCountWithIOZ)",
+          "insuredPeopleCountWithoutIOZ": "$t(analytics.common.data.insuredPeopleCountWithoutIOZ)",
+          "iozRatio": "$t(analytics.common.data.iozRatio)"
+        }
+      },
+      "menu": "$t(header.menu)",
+      "export": "$t(analytics.common.buttons.export)"
     },
     "footer": {
-        "dataSource": "Data source",
-        "lastChange": "Last data update on"
-    },
-    "orderform": "get appointment",
-    "timestamps": {
-        "datetime": "{{val, datetime}}",
-        "at": "at"
-    },
-    "sozialmarie": {
-        "description": "The Doctors Tracker portal was created to bring the healthcare system closer to the patient. In Slovenia, we are facing a shortage of doctors at primary level. This leaves many patients without the basic right of access to a personal GP. In the Scientific association Tracker, we imported the data that was publicly available every 15 days in a spreadsheet that was not user friendly into our portal and allowed users to suggest corrections for faulty data in real time. This gave patients seeking primary care user-friendly and up-to-date information."
+      "doctors": "Doctors"
     }
+  }
 }

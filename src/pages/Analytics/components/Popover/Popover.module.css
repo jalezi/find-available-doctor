@@ -1,0 +1,72 @@
+.PopoverContainer {
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+}
+
+.PopoverTrigger {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.PopoverContent {
+  position: fixed; /* Change from absolute to fixed */
+  max-height: 80vh; /* Limit maximum height */
+  max-width: 90vw; /* Limit maximum width */
+  overflow: auto; /* Add scrolling if needed */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding-block: 0.75em;
+  padding-inline: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  white-space: nowrap;
+}
+
+.PopoverContent[data-placement^='top'],
+.PopoverContent[data-placement^='bottom'] {
+  transform: none;
+}
+
+.PopoverContent[data-placement^='start'],
+.PopoverContent[data-placement$='start'] {
+  right: 0;
+  left: unset;
+  transform: unset;
+}
+
+.PopoverContent[data-placement^='end'],
+.PopoverContent[data-placement$='end'] {
+  left: 0;
+  right: unset;
+  transform: unset;
+}
+
+.PopoverItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  background: transparent;
+  padding-block: 0.5em;
+  padding-inline: 0.4em;
+  border: 1px solid transparent;
+}
+
+.PopoverItem:hover {
+  background: #f4f8f8;
+}
+
+.PopoverItem:focus-visible {
+  background: #f4f8f8;
+  outline: 2px solid #333;
+}
+
+.PopoverContent:focus-visible {
+  outline: 2px solid #333;
+}

@@ -1,0 +1,20 @@
+.FilterForm {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.MunClearAll {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  gap: 0.5rem;
+  top: 50%;
+  left: 0.6em;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.HasValue {
+  padding-inline: var(--select-padding-inline) calc(var(--select-padding-inline) + 20px); /* size of clear indicator svg */
+}

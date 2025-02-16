@@ -1,0 +1,3320 @@
+[
+  {
+    "index": 0,
+    "datum": "2020-11-20",
+    "javni": 866.44,
+    "zasebni": 328.92
+  },
+  {
+    "index": 1,
+    "datum": "2020-12-01",
+    "javni": 870.14,
+    "zasebni": 328.92
+  },
+  {
+    "index": 2,
+    "datum": "2020-12-10",
+    "javni": 871.61,
+    "zasebni": 328.92
+  },
+  {
+    "index": 3,
+    "datum": "2020-12-20",
+    "javni": 875.13,
+    "zasebni": 328.42
+  },
+  {
+    "index": 4,
+    "datum": "2021-01-01",
+    "javni": 873.69,
+    "zasebni": 328.42
+  },
+  {
+    "index": 5,
+    "datum": "2021-01-10",
+    "javni": 873.2,
+    "zasebni": 328.41
+  },
+  {
+    "index": 6,
+    "datum": "2021-01-20",
+    "javni": 874.2,
+    "zasebni": 329.03
+  },
+  {
+    "index": 7,
+    "datum": "2021-02-01",
+    "javni": 874.5600000000001,
+    "zasebni": 328.83
+  },
+  {
+    "index": 8,
+    "datum": "2021-02-10",
+    "javni": 876.51,
+    "zasebni": 329.33
+  },
+  {
+    "index": 9,
+    "datum": "2021-02-20",
+    "javni": 875.51,
+    "zasebni": 329.53
+  },
+  {
+    "index": 10,
+    "datum": "2021-03-01",
+    "javni": 878.09,
+    "zasebni": 329.27
+  },
+  {
+    "index": 11,
+    "datum": "2021-03-10",
+    "javni": 878.09,
+    "zasebni": 328.27
+  },
+  {
+    "index": 12,
+    "datum": "2021-03-20",
+    "javni": 877.09,
+    "zasebni": 328.27
+  },
+  {
+    "index": 13,
+    "datum": "2021-04-01",
+    "javni": 879.63,
+    "zasebni": 328.27
+  },
+  {
+    "index": 14,
+    "datum": "2021-04-10",
+    "javni": 881.23,
+    "zasebni": 326.17
+  },
+  {
+    "index": 15,
+    "datum": "2021-04-20",
+    "javni": 881.86,
+    "zasebni": 326.17
+  },
+  {
+    "index": 16,
+    "datum": "2021-05-01",
+    "javni": 881.86,
+    "zasebni": 326.17
+  },
+  {
+    "index": 17,
+    "datum": "2021-05-10",
+    "javni": 879.37,
+    "zasebni": 327.17
+  },
+  {
+    "index": 18,
+    "datum": "2021-05-20",
+    "javni": 879.43,
+    "zasebni": 327.41
+  },
+  {
+    "index": 19,
+    "datum": "2021-06-01",
+    "javni": 877.09,
+    "zasebni": 327.41
+  },
+  {
+    "index": 20,
+    "datum": "2021-06-10",
+    "javni": 876.79,
+    "zasebni": 327.41
+  },
+  {
+    "index": 21,
+    "datum": "2021-06-20",
+    "javni": 875.73,
+    "zasebni": 327.41
+  },
+  {
+    "index": 22,
+    "datum": "2021-07-01",
+    "javni": 875.5,
+    "zasebni": 327.48
+  },
+  {
+    "index": 23,
+    "datum": "2021-07-10",
+    "javni": 877.37,
+    "zasebni": 327.77
+  },
+  {
+    "index": 24,
+    "datum": "2021-07-20",
+    "javni": 878.71,
+    "zasebni": 327.77
+  },
+  {
+    "index": 25,
+    "datum": "2021-08-01",
+    "javni": 884.86,
+    "zasebni": 327.71
+  },
+  {
+    "index": 26,
+    "datum": "2021-08-10",
+    "javni": 886.52,
+    "zasebni": 327.84
+  },
+  {
+    "index": 27,
+    "datum": "2021-08-20",
+    "javni": 889,
+    "zasebni": 328.04
+  },
+  {
+    "index": 28,
+    "datum": "2021-09-01",
+    "javni": 888.44,
+    "zasebni": 328.24
+  },
+  {
+    "index": 29,
+    "datum": "2021-09-10",
+    "javni": 888.85,
+    "zasebni": 328.32
+  },
+  {
+    "index": 30,
+    "datum": "2021-09-20",
+    "javni": 889.21,
+    "zasebni": 328.32
+  },
+  {
+    "index": 31,
+    "datum": "2021-10-01",
+    "javni": 893.51,
+    "zasebni": 328.13
+  },
+  {
+    "index": 32,
+    "datum": "2021-10-10",
+    "javni": 894.57,
+    "zasebni": 328.63
+  },
+  {
+    "index": 33,
+    "datum": "2021-10-20",
+    "javni": 895.76,
+    "zasebni": 327.63
+  },
+  {
+    "index": 34,
+    "datum": "2021-11-01",
+    "javni": 897.86,
+    "zasebni": 327.63
+  },
+  {
+    "index": 35,
+    "datum": "2021-11-10",
+    "javni": 895.16,
+    "zasebni": 327.63
+  },
+  {
+    "index": 36,
+    "datum": "2021-11-20",
+    "javni": 895.35,
+    "zasebni": 327.03
+  },
+  {
+    "index": 37,
+    "datum": "2021-12-01",
+    "javni": 894.6,
+    "zasebni": 327.05
+  },
+  {
+    "index": 38,
+    "datum": "2021-12-10",
+    "javni": 892.91,
+    "zasebni": 327.05
+  },
+  {
+    "index": 39,
+    "datum": "2021-12-20",
+    "javni": 892.23,
+    "zasebni": 327.07
+  },
+  {
+    "index": 40,
+    "datum": "2022-01-01",
+    "javni": 894.28,
+    "zasebni": 326.27
+  },
+  {
+    "index": 41,
+    "datum": "2022-01-10",
+    "javni": 894.36,
+    "zasebni": 325.44
+  },
+  {
+    "index": 42,
+    "datum": "2022-01-20",
+    "javni": 891.3100000000001,
+    "zasebni": 322.14
+  },
+  {
+    "index": 43,
+    "datum": "2022-01-31",
+    "javni": 889.74,
+    "zasebni": 322.07
+  },
+  {
+    "index": 44,
+    "datum": "2022-02-10",
+    "javni": 886.13,
+    "zasebni": 319.97
+  },
+  {
+    "index": 45,
+    "datum": "2022-02-20",
+    "javni": 887.7,
+    "zasebni": 319.97
+  },
+  {
+    "index": 46,
+    "datum": "2022-02-28",
+    "javni": 887.96,
+    "zasebni": 319.97
+  },
+  {
+    "index": 47,
+    "datum": "2022-03-10",
+    "javni": 887.82,
+    "zasebni": 321.77
+  },
+  {
+    "index": 48,
+    "datum": "2022-03-20",
+    "javni": 888.36,
+    "zasebni": 321.77
+  },
+  {
+    "index": 49,
+    "datum": "2022-03-31",
+    "javni": 888.8,
+    "zasebni": 321.77
+  },
+  {
+    "index": 50,
+    "datum": "2022-04-10",
+    "javni": 892.52,
+    "zasebni": 320.77
+  },
+  {
+    "index": 51,
+    "datum": "2022-04-20",
+    "javni": 889.89,
+    "zasebni": 322.27
+  },
+  {
+    "index": 52,
+    "datum": "2022-04-30",
+    "javni": 890.77,
+    "zasebni": 322.16
+  },
+  {
+    "index": 53,
+    "datum": "2022-05-10",
+    "javni": 890.9,
+    "zasebni": 323.55
+  },
+  {
+    "index": 54,
+    "datum": "2022-05-20",
+    "javni": 891.69,
+    "zasebni": 323.75
+  },
+  {
+    "index": 55,
+    "datum": "2022-05-31",
+    "javni": 890.24,
+    "zasebni": 323.75
+  },
+  {
+    "index": 56,
+    "datum": "2022-06-10",
+    "javni": 888.48,
+    "zasebni": 324.5
+  },
+  {
+    "index": 57,
+    "datum": "2022-06-20",
+    "javni": 889.64,
+    "zasebni": 324.5
+  },
+  {
+    "index": 58,
+    "datum": "2022-06-30",
+    "javni": 891.52,
+    "zasebni": 324.5
+  },
+  {
+    "index": 59,
+    "datum": "2022-07-10",
+    "javni": 895.11,
+    "zasebni": 327.58
+  },
+  {
+    "index": 60,
+    "datum": "2022-07-20",
+    "javni": 894.93,
+    "zasebni": 327.58
+  },
+  {
+    "index": 61,
+    "datum": "2022-07-31",
+    "javni": 894.5,
+    "zasebni": 327.58
+  },
+  {
+    "index": 62,
+    "datum": "2022-08-10",
+    "javni": 896.13,
+    "zasebni": 327.74
+  },
+  {
+    "index": 63,
+    "datum": "2022-08-20",
+    "javni": 895.15,
+    "zasebni": 325.49
+  },
+  {
+    "index": 64,
+    "datum": "2022-08-31",
+    "javni": 892.68,
+    "zasebni": 325.43
+  },
+  {
+    "index": 65,
+    "datum": "2022-09-10",
+    "javni": 895.36,
+    "zasebni": 325.08
+  },
+  {
+    "index": 66,
+    "datum": "2022-09-20",
+    "javni": 893.6,
+    "zasebni": 325.61
+  },
+  {
+    "index": 67,
+    "datum": "2022-09-30",
+    "javni": 891.71,
+    "zasebni": 325.61
+  },
+  {
+    "index": 68,
+    "datum": "2022-10-10",
+    "javni": 890.69,
+    "zasebni": 324.61
+  },
+  {
+    "index": 69,
+    "datum": "2022-10-20",
+    "javni": 890.39,
+    "zasebni": 324.62
+  },
+  {
+    "index": 70,
+    "datum": "2022-10-31",
+    "javni": 891.32,
+    "zasebni": 324.33
+  },
+  {
+    "index": 71,
+    "datum": "2022-11-10",
+    "javni": 890.86,
+    "zasebni": 324.59
+  },
+  {
+    "index": 72,
+    "datum": "2022-11-20",
+    "javni": 887.49,
+    "zasebni": 324.59
+  },
+  {
+    "index": 73,
+    "datum": "2022-11-30",
+    "javni": 885.38,
+    "zasebni": 325.58
+  },
+  {
+    "index": 74,
+    "datum": "2022-12-10",
+    "javni": 883.34,
+    "zasebni": 325.23
+  },
+  {
+    "index": 75,
+    "datum": "2022-12-20",
+    "javni": 882.38,
+    "zasebni": 326.23
+  },
+  {
+    "index": 76,
+    "datum": "2022-12-31",
+    "javni": 882.41,
+    "zasebni": 328.23
+  },
+  {
+    "index": 77,
+    "datum": "2023-01-10",
+    "javni": 872.54,
+    "zasebni": 324.81
+  },
+  {
+    "index": 78,
+    "datum": "2023-01-20",
+    "javni": 872.47,
+    "zasebni": 325.26
+  },
+  {
+    "index": 79,
+    "datum": "2023-01-31",
+    "javni": 873.3,
+    "zasebni": 325.26
+  },
+  {
+    "index": 80,
+    "datum": "2023-02-10",
+    "javni": 869.97,
+    "zasebni": 325.98
+  },
+  {
+    "index": 81,
+    "datum": "2023-02-20",
+    "javni": 867.39,
+    "zasebni": 325.98
+  },
+  {
+    "index": 82,
+    "datum": "2023-02-28",
+    "javni": 868.17,
+    "zasebni": 325.98
+  },
+  {
+    "index": 83,
+    "datum": "2023-03-10",
+    "javni": 867.05,
+    "zasebni": 324.48
+  },
+  {
+    "index": 84,
+    "datum": "2023-03-20",
+    "javni": 865.07,
+    "zasebni": 324.48
+  },
+  {
+    "index": 85,
+    "datum": "2023-03-23",
+    "javni": 865.32,
+    "zasebni": 323.61
+  },
+  {
+    "index": 86,
+    "datum": "2023-03-24",
+    "javni": 864.32,
+    "zasebni": 323.61
+  },
+  {
+    "index": 87,
+    "datum": "2023-03-25",
+    "javni": 864.52,
+    "zasebni": 323.61
+  },
+  {
+    "index": 88,
+    "datum": "2023-03-27",
+    "javni": 864.52,
+    "zasebni": 323.61
+  },
+  {
+    "index": 89,
+    "datum": "2023-03-28",
+    "javni": 864.82,
+    "zasebni": 323.61
+  },
+  {
+    "index": 90,
+    "datum": "2023-03-29",
+    "javni": 865.42,
+    "zasebni": 323.61
+  },
+  {
+    "index": 91,
+    "datum": "2023-03-30",
+    "javni": 865.42,
+    "zasebni": 323.61
+  },
+  {
+    "index": 92,
+    "datum": "2023-03-31",
+    "javni": 865.42,
+    "zasebni": 323.61
+  },
+  {
+    "index": 93,
+    "datum": "2023-04-01",
+    "javni": 865.27,
+    "zasebni": 323.46
+  },
+  {
+    "index": 94,
+    "datum": "2023-04-03",
+    "javni": 865.27,
+    "zasebni": 323.46
+  },
+  {
+    "index": 95,
+    "datum": "2023-04-04",
+    "javni": 866.36,
+    "zasebni": 323.46
+  },
+  {
+    "index": 96,
+    "datum": "2023-04-05",
+    "javni": 866.82,
+    "zasebni": 323.46
+  },
+  {
+    "index": 97,
+    "datum": "2023-04-06",
+    "javni": 866.82,
+    "zasebni": 323.46
+  },
+  {
+    "index": 98,
+    "datum": "2023-04-07",
+    "javni": 866.98,
+    "zasebni": 323.46
+  },
+  {
+    "index": 99,
+    "datum": "2023-04-08",
+    "javni": 868.98,
+    "zasebni": 323.46
+  },
+  {
+    "index": 100,
+    "datum": "2023-04-10",
+    "javni": 868.98,
+    "zasebni": 323.46
+  },
+  {
+    "index": 101,
+    "datum": "2023-04-11",
+    "javni": 868.98,
+    "zasebni": 323.46
+  },
+  {
+    "index": 102,
+    "datum": "2023-04-12",
+    "javni": 868.86,
+    "zasebni": 323.46
+  },
+  {
+    "index": 103,
+    "datum": "2023-04-13",
+    "javni": 869.0600000000001,
+    "zasebni": 323.46
+  },
+  {
+    "index": 104,
+    "datum": "2023-04-14",
+    "javni": 869.0600000000001,
+    "zasebni": 322.46
+  },
+  {
+    "index": 105,
+    "datum": "2023-04-15",
+    "javni": 869.0600000000001,
+    "zasebni": 322.46
+  },
+  {
+    "index": 106,
+    "datum": "2023-04-17",
+    "javni": 869.0600000000001,
+    "zasebni": 322.46
+  },
+  {
+    "index": 107,
+    "datum": "2023-04-18",
+    "javni": 869.0600000000001,
+    "zasebni": 322.46
+  },
+  {
+    "index": 108,
+    "datum": "2023-04-19",
+    "javni": 869.0600000000001,
+    "zasebni": 322.46
+  },
+  {
+    "index": 109,
+    "datum": "2023-04-20",
+    "javni": 870.0600000000001,
+    "zasebni": 322.46
+  },
+  {
+    "index": 110,
+    "datum": "2023-04-21",
+    "javni": 869.69,
+    "zasebni": 322.46
+  },
+  {
+    "index": 111,
+    "datum": "2023-04-22",
+    "javni": 869.69,
+    "zasebni": 322.46
+  },
+  {
+    "index": 112,
+    "datum": "2023-04-24",
+    "javni": 869.69,
+    "zasebni": 322.46
+  },
+  {
+    "index": 113,
+    "datum": "2023-04-25",
+    "javni": 869.69,
+    "zasebni": 322.46
+  },
+  {
+    "index": 114,
+    "datum": "2023-04-26",
+    "javni": 869.79,
+    "zasebni": 322.46
+  },
+  {
+    "index": 115,
+    "datum": "2023-04-27",
+    "javni": 870.85,
+    "zasebni": 322.46
+  },
+  {
+    "index": 116,
+    "datum": "2023-04-28",
+    "javni": 870.85,
+    "zasebni": 322.46
+  },
+  {
+    "index": 117,
+    "datum": "2023-04-29",
+    "javni": 870.85,
+    "zasebni": 322.46
+  },
+  {
+    "index": 118,
+    "datum": "2023-05-01",
+    "javni": 870.02,
+    "zasebni": 322.46
+  },
+  {
+    "index": 119,
+    "datum": "2023-05-02",
+    "javni": 870.02,
+    "zasebni": 322.46
+  },
+  {
+    "index": 120,
+    "datum": "2023-05-03",
+    "javni": 870.02,
+    "zasebni": 322.46
+  },
+  {
+    "index": 121,
+    "datum": "2023-05-04",
+    "javni": 870.55,
+    "zasebni": 322.46
+  },
+  {
+    "index": 122,
+    "datum": "2023-05-05",
+    "javni": 870.6,
+    "zasebni": 322.46
+  },
+  {
+    "index": 123,
+    "datum": "2023-05-06",
+    "javni": 871.09,
+    "zasebni": 322.46
+  },
+  {
+    "index": 124,
+    "datum": "2023-05-08",
+    "javni": 870.34,
+    "zasebni": 322.46
+  },
+  {
+    "index": 125,
+    "datum": "2023-05-09",
+    "javni": 871.1,
+    "zasebni": 322.46
+  },
+  {
+    "index": 126,
+    "datum": "2023-05-10",
+    "javni": 871.1,
+    "zasebni": 322.46
+  },
+  {
+    "index": 127,
+    "datum": "2023-05-11",
+    "javni": 871.24,
+    "zasebni": 322.53
+  },
+  {
+    "index": 128,
+    "datum": "2023-05-12",
+    "javni": 870.89,
+    "zasebni": 322.53
+  },
+  {
+    "index": 129,
+    "datum": "2023-05-13",
+    "javni": 869.99,
+    "zasebni": 322.53
+  },
+  {
+    "index": 130,
+    "datum": "2023-05-15",
+    "javni": 869.99,
+    "zasebni": 322.53
+  },
+  {
+    "index": 131,
+    "datum": "2023-05-16",
+    "javni": 869.99,
+    "zasebni": 322.53
+  },
+  {
+    "index": 132,
+    "datum": "2023-05-17",
+    "javni": 871.19,
+    "zasebni": 321.33
+  },
+  {
+    "index": 133,
+    "datum": "2023-05-18",
+    "javni": 870.41,
+    "zasebni": 321.33
+  },
+  {
+    "index": 134,
+    "datum": "2023-05-19",
+    "javni": 871.16,
+    "zasebni": 321.33
+  },
+  {
+    "index": 135,
+    "datum": "2023-05-20",
+    "javni": 871.16,
+    "zasebni": 321.33
+  },
+  {
+    "index": 136,
+    "datum": "2023-05-22",
+    "javni": 871.16,
+    "zasebni": 321.33
+  },
+  {
+    "index": 137,
+    "datum": "2023-05-23",
+    "javni": 871.16,
+    "zasebni": 320.33
+  },
+  {
+    "index": 138,
+    "datum": "2023-05-24",
+    "javni": 871.16,
+    "zasebni": 320.33
+  },
+  {
+    "index": 139,
+    "datum": "2023-05-25",
+    "javni": 871.16,
+    "zasebni": 320.33
+  },
+  {
+    "index": 140,
+    "datum": "2023-05-26",
+    "javni": 870.48,
+    "zasebni": 320.33
+  },
+  {
+    "index": 141,
+    "datum": "2023-05-27",
+    "javni": 870.48,
+    "zasebni": 320.33
+  },
+  {
+    "index": 142,
+    "datum": "2023-05-29",
+    "javni": 869.48,
+    "zasebni": 320.33
+  },
+  {
+    "index": 143,
+    "datum": "2023-05-30",
+    "javni": 870.48,
+    "zasebni": 320.33
+  },
+  {
+    "index": 144,
+    "datum": "2023-05-31",
+    "javni": 871.42,
+    "zasebni": 320.33
+  },
+  {
+    "index": 145,
+    "datum": "2023-06-01",
+    "javni": 871.35,
+    "zasebni": 320.72
+  },
+  {
+    "index": 146,
+    "datum": "2023-06-02",
+    "javni": 871.35,
+    "zasebni": 320.92
+  },
+  {
+    "index": 147,
+    "datum": "2023-06-03",
+    "javni": 871.17,
+    "zasebni": 320.93
+  },
+  {
+    "index": 148,
+    "datum": "2023-06-05",
+    "javni": 871.42,
+    "zasebni": 320.93
+  },
+  {
+    "index": 149,
+    "datum": "2023-06-06",
+    "javni": 871.67,
+    "zasebni": 320.93
+  },
+  {
+    "index": 150,
+    "datum": "2023-06-07",
+    "javni": 871.67,
+    "zasebni": 320.93
+  },
+  {
+    "index": 151,
+    "datum": "2023-06-08",
+    "javni": 872.67,
+    "zasebni": 320.93
+  },
+  {
+    "index": 152,
+    "datum": "2023-06-09",
+    "javni": 871.79,
+    "zasebni": 320.93
+  },
+  {
+    "index": 153,
+    "datum": "2023-06-10",
+    "javni": 870.09,
+    "zasebni": 320.93
+  },
+  {
+    "index": 154,
+    "datum": "2023-06-12",
+    "javni": 870.09,
+    "zasebni": 320.93
+  },
+  {
+    "index": 155,
+    "datum": "2023-06-13",
+    "javni": 870.09,
+    "zasebni": 319.93
+  },
+  {
+    "index": 156,
+    "datum": "2023-06-14",
+    "javni": 872.09,
+    "zasebni": 320.03
+  },
+  {
+    "index": 157,
+    "datum": "2023-06-15",
+    "javni": 872.09,
+    "zasebni": 320.03
+  },
+  {
+    "index": 158,
+    "datum": "2023-06-16",
+    "javni": 867.24,
+    "zasebni": 320.03
+  },
+  {
+    "index": 159,
+    "datum": "2023-06-17",
+    "javni": 867.24,
+    "zasebni": 320.03
+  },
+  {
+    "index": 160,
+    "datum": "2023-06-19",
+    "javni": 867.24,
+    "zasebni": 320.03
+  },
+  {
+    "index": 161,
+    "datum": "2023-06-20",
+    "javni": 868.24,
+    "zasebni": 320.03
+  },
+  {
+    "index": 162,
+    "datum": "2023-06-21",
+    "javni": 870.24,
+    "zasebni": 319.03
+  },
+  {
+    "index": 163,
+    "datum": "2023-06-22",
+    "javni": 870.24,
+    "zasebni": 319.03
+  },
+  {
+    "index": 164,
+    "datum": "2023-06-23",
+    "javni": 870.24,
+    "zasebni": 320.03
+  },
+  {
+    "index": 165,
+    "datum": "2023-06-24",
+    "javni": 870.24,
+    "zasebni": 320.03
+  },
+  {
+    "index": 166,
+    "datum": "2023-06-26",
+    "javni": 870.24,
+    "zasebni": 320.03
+  },
+  {
+    "index": 167,
+    "datum": "2023-06-27",
+    "javni": 871.24,
+    "zasebni": 317.83
+  },
+  {
+    "index": 168,
+    "datum": "2023-06-28",
+    "javni": 871.24,
+    "zasebni": 317.83
+  },
+  {
+    "index": 169,
+    "datum": "2023-06-29",
+    "javni": 871.16,
+    "zasebni": 317.83
+  },
+  {
+    "index": 170,
+    "datum": "2023-06-30",
+    "javni": 871.16,
+    "zasebni": 317.83
+  },
+  {
+    "index": 171,
+    "datum": "2023-07-01",
+    "javni": 869.5,
+    "zasebni": 317.83
+  },
+  {
+    "index": 172,
+    "datum": "2023-07-03",
+    "javni": 869.5,
+    "zasebni": 317.83
+  },
+  {
+    "index": 173,
+    "datum": "2023-07-04",
+    "javni": 868.55,
+    "zasebni": 317.83
+  },
+  {
+    "index": 174,
+    "datum": "2023-07-05",
+    "javni": 867.7,
+    "zasebni": 317.83
+  },
+  {
+    "index": 175,
+    "datum": "2023-07-06",
+    "javni": 871.3,
+    "zasebni": 317.83
+  },
+  {
+    "index": 176,
+    "datum": "2023-07-07",
+    "javni": 871.3,
+    "zasebni": 317.83
+  },
+  {
+    "index": 177,
+    "datum": "2023-07-08",
+    "javni": 871.6,
+    "zasebni": 317.83
+  },
+  {
+    "index": 178,
+    "datum": "2023-07-10",
+    "javni": 871.6,
+    "zasebni": 317.83
+  },
+  {
+    "index": 179,
+    "datum": "2023-07-11",
+    "javni": 871.6,
+    "zasebni": 317.83
+  },
+  {
+    "index": 180,
+    "datum": "2023-07-12",
+    "javni": 871.19,
+    "zasebni": 317.83
+  },
+  {
+    "index": 181,
+    "datum": "2023-07-13",
+    "javni": 871.19,
+    "zasebni": 317.83
+  },
+  {
+    "index": 182,
+    "datum": "2023-07-14",
+    "javni": 870.85,
+    "zasebni": 317.83
+  },
+  {
+    "index": 183,
+    "datum": "2023-07-15",
+    "javni": 870.85,
+    "zasebni": 317.83
+  },
+  {
+    "index": 184,
+    "datum": "2023-07-17",
+    "javni": 870.85,
+    "zasebni": 317.83
+  },
+  {
+    "index": 185,
+    "datum": "2023-07-18",
+    "javni": 870.95,
+    "zasebni": 317.83
+  },
+  {
+    "index": 186,
+    "datum": "2023-07-19",
+    "javni": 870.95,
+    "zasebni": 317.83
+  },
+  {
+    "index": 187,
+    "datum": "2023-07-20",
+    "javni": 870.95,
+    "zasebni": 317.83
+  },
+  {
+    "index": 188,
+    "datum": "2023-07-21",
+    "javni": 870.95,
+    "zasebni": 317.83
+  },
+  {
+    "index": 189,
+    "datum": "2023-07-22",
+    "javni": 871.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 190,
+    "datum": "2023-07-24",
+    "javni": 871.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 191,
+    "datum": "2023-07-25",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 192,
+    "datum": "2023-07-26",
+    "javni": 866.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 193,
+    "datum": "2023-07-27",
+    "javni": 866.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 194,
+    "datum": "2023-07-28",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 195,
+    "datum": "2023-07-29",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 196,
+    "datum": "2023-07-31",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 197,
+    "datum": "2023-08-01",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 198,
+    "datum": "2023-08-02",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 199,
+    "datum": "2023-08-03",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 200,
+    "datum": "2023-08-04",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 201,
+    "datum": "2023-08-05",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 202,
+    "datum": "2023-08-07",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 203,
+    "datum": "2023-08-08",
+    "javni": 867.15,
+    "zasebni": 317.83
+  },
+  {
+    "index": 204,
+    "datum": "2023-08-09",
+    "javni": 867.29,
+    "zasebni": 317.83
+  },
+  {
+    "index": 205,
+    "datum": "2023-08-10",
+    "javni": 867.29,
+    "zasebni": 317.83
+  },
+  {
+    "index": 206,
+    "datum": "2023-08-11",
+    "javni": 867.29,
+    "zasebni": 317.83
+  },
+  {
+    "index": 207,
+    "datum": "2023-08-12",
+    "javni": 867.29,
+    "zasebni": 317.83
+  },
+  {
+    "index": 208,
+    "datum": "2023-08-14",
+    "javni": 867.29,
+    "zasebni": 317.83
+  },
+  {
+    "index": 209,
+    "datum": "2023-08-15",
+    "javni": 867.6,
+    "zasebni": 317.83
+  },
+  {
+    "index": 210,
+    "datum": "2023-08-16",
+    "javni": 867.6,
+    "zasebni": 317.83
+  },
+  {
+    "index": 211,
+    "datum": "2023-08-17",
+    "javni": 871.27,
+    "zasebni": 317.83
+  },
+  {
+    "index": 212,
+    "datum": "2023-08-18",
+    "javni": 870.87,
+    "zasebni": 317.83
+  },
+  {
+    "index": 213,
+    "datum": "2023-08-19",
+    "javni": 868.87,
+    "zasebni": 317.83
+  },
+  {
+    "index": 214,
+    "datum": "2023-08-21",
+    "javni": 868.87,
+    "zasebni": 317.83
+  },
+  {
+    "index": 215,
+    "datum": "2023-08-22",
+    "javni": 868.87,
+    "zasebni": 317.83
+  },
+  {
+    "index": 216,
+    "datum": "2023-08-23",
+    "javni": 868.87,
+    "zasebni": 317.83
+  },
+  {
+    "index": 217,
+    "datum": "2023-08-26",
+    "javni": 867.87,
+    "zasebni": 317.83
+  },
+  {
+    "index": 218,
+    "datum": "2023-08-28",
+    "javni": 866.87,
+    "zasebni": 319.83
+  },
+  {
+    "index": 219,
+    "datum": "2023-08-29",
+    "javni": 867.62,
+    "zasebni": 319.64
+  },
+  {
+    "index": 220,
+    "datum": "2023-08-30",
+    "javni": 867.62,
+    "zasebni": 319.64
+  },
+  {
+    "index": 221,
+    "datum": "2023-08-31",
+    "javni": 867.62,
+    "zasebni": 319.64
+  },
+  {
+    "index": 222,
+    "datum": "2023-09-01",
+    "javni": 868.92,
+    "zasebni": 319.24
+  },
+  {
+    "index": 223,
+    "datum": "2023-09-02",
+    "javni": 868.92,
+    "zasebni": 319.24
+  },
+  {
+    "index": 224,
+    "datum": "2023-09-04",
+    "javni": 868.92,
+    "zasebni": 319.24
+  },
+  {
+    "index": 225,
+    "datum": "2023-09-05",
+    "javni": 868.92,
+    "zasebni": 319.24
+  },
+  {
+    "index": 226,
+    "datum": "2023-09-06",
+    "javni": 868.86,
+    "zasebni": 319.24
+  },
+  {
+    "index": 227,
+    "datum": "2023-09-07",
+    "javni": 867.5600000000001,
+    "zasebni": 318.49
+  },
+  {
+    "index": 228,
+    "datum": "2023-09-08",
+    "javni": 866.97,
+    "zasebni": 318.49
+  },
+  {
+    "index": 229,
+    "datum": "2023-09-09",
+    "javni": 866.97,
+    "zasebni": 318.49
+  },
+  {
+    "index": 230,
+    "datum": "2023-09-11",
+    "javni": 866.97,
+    "zasebni": 318.49
+  },
+  {
+    "index": 231,
+    "datum": "2023-09-12",
+    "javni": 867.4,
+    "zasebni": 318.84
+  },
+  {
+    "index": 232,
+    "datum": "2023-09-13",
+    "javni": 866.4,
+    "zasebni": 318.84
+  },
+  {
+    "index": 233,
+    "datum": "2023-09-14",
+    "javni": 865.92,
+    "zasebni": 318.84
+  },
+  {
+    "index": 234,
+    "datum": "2023-09-15",
+    "javni": 864.92,
+    "zasebni": 318.84
+  },
+  {
+    "index": 235,
+    "datum": "2023-09-16",
+    "javni": 865.02,
+    "zasebni": 318.84
+  },
+  {
+    "index": 236,
+    "datum": "2023-09-18",
+    "javni": 865.02,
+    "zasebni": 318.84
+  },
+  {
+    "index": 237,
+    "datum": "2023-09-19",
+    "javni": 864.17,
+    "zasebni": 318.84
+  },
+  {
+    "index": 238,
+    "datum": "2023-09-20",
+    "javni": 863.95,
+    "zasebni": 318.84
+  },
+  {
+    "index": 239,
+    "datum": "2023-09-21",
+    "javni": 863.95,
+    "zasebni": 318.84
+  },
+  {
+    "index": 240,
+    "datum": "2023-09-22",
+    "javni": 863.95,
+    "zasebni": 318.84
+  },
+  {
+    "index": 241,
+    "datum": "2023-09-23",
+    "javni": 863.95,
+    "zasebni": 318.84
+  },
+  {
+    "index": 242,
+    "datum": "2023-09-25",
+    "javni": 862.95,
+    "zasebni": 318.84
+  },
+  {
+    "index": 243,
+    "datum": "2023-09-26",
+    "javni": 864.25,
+    "zasebni": 318.84
+  },
+  {
+    "index": 244,
+    "datum": "2023-09-27",
+    "javni": 863.93,
+    "zasebni": 318.84
+  },
+  {
+    "index": 245,
+    "datum": "2023-09-28",
+    "javni": 864.93,
+    "zasebni": 319.64
+  },
+  {
+    "index": 246,
+    "datum": "2023-09-29",
+    "javni": 864.93,
+    "zasebni": 319.64
+  },
+  {
+    "index": 247,
+    "datum": "2023-09-30",
+    "javni": 865.23,
+    "zasebni": 319.64
+  },
+  {
+    "index": 248,
+    "datum": "2023-10-02",
+    "javni": 864.28,
+    "zasebni": 319.64
+  },
+  {
+    "index": 249,
+    "datum": "2023-10-03",
+    "javni": 867.79,
+    "zasebni": 318.64
+  },
+  {
+    "index": 250,
+    "datum": "2023-10-04",
+    "javni": 866.77,
+    "zasebni": 320.47
+  },
+  {
+    "index": 251,
+    "datum": "2023-10-05",
+    "javni": 866.74,
+    "zasebni": 320.47
+  },
+  {
+    "index": 252,
+    "datum": "2023-10-06",
+    "javni": 866.74,
+    "zasebni": 319.47
+  },
+  {
+    "index": 253,
+    "datum": "2023-10-07",
+    "javni": 866.34,
+    "zasebni": 319.47
+  },
+  {
+    "index": 254,
+    "datum": "2023-10-09",
+    "javni": 866.34,
+    "zasebni": 319.47
+  },
+  {
+    "index": 255,
+    "datum": "2023-10-10",
+    "javni": 866.34,
+    "zasebni": 319.47
+  },
+  {
+    "index": 256,
+    "datum": "2023-10-11",
+    "javni": 867.13,
+    "zasebni": 319.47
+  },
+  {
+    "index": 257,
+    "datum": "2023-10-12",
+    "javni": 866.93,
+    "zasebni": 319.47
+  },
+  {
+    "index": 258,
+    "datum": "2023-10-13",
+    "javni": 866.19,
+    "zasebni": 319.47
+  },
+  {
+    "index": 259,
+    "datum": "2023-10-14",
+    "javni": 866.19,
+    "zasebni": 319.47
+  },
+  {
+    "index": 260,
+    "datum": "2023-10-16",
+    "javni": 866.19,
+    "zasebni": 319.47
+  },
+  {
+    "index": 261,
+    "datum": "2023-10-17",
+    "javni": 865.23,
+    "zasebni": 318.64
+  },
+  {
+    "index": 262,
+    "datum": "2023-10-18",
+    "javni": 865.23,
+    "zasebni": 318.64
+  },
+  {
+    "index": 263,
+    "datum": "2023-10-19",
+    "javni": 865.92,
+    "zasebni": 318.64
+  },
+  {
+    "index": 264,
+    "datum": "2023-10-20",
+    "javni": 867.21,
+    "zasebni": 318.64
+  },
+  {
+    "index": 265,
+    "datum": "2023-10-21",
+    "javni": 867.21,
+    "zasebni": 318.64
+  },
+  {
+    "index": 266,
+    "datum": "2023-10-23",
+    "javni": 867.21,
+    "zasebni": 318.64
+  },
+  {
+    "index": 267,
+    "datum": "2023-10-24",
+    "javni": 867.21,
+    "zasebni": 318.64
+  },
+  {
+    "index": 268,
+    "datum": "2023-10-25",
+    "javni": 867.61,
+    "zasebni": 318.64
+  },
+  {
+    "index": 269,
+    "datum": "2023-10-26",
+    "javni": 867.61,
+    "zasebni": 318.64
+  },
+  {
+    "index": 270,
+    "datum": "2023-10-27",
+    "javni": 867.61,
+    "zasebni": 318.64
+  },
+  {
+    "index": 271,
+    "datum": "2023-10-28",
+    "javni": 867.61,
+    "zasebni": 318.64
+  },
+  {
+    "index": 272,
+    "datum": "2023-10-30",
+    "javni": 867.61,
+    "zasebni": 318.64
+  },
+  {
+    "index": 273,
+    "datum": "2023-10-31",
+    "javni": 866.9,
+    "zasebni": 318.64
+  },
+  {
+    "index": 274,
+    "datum": "2023-11-01",
+    "javni": 867.48,
+    "zasebni": 318.84
+  },
+  {
+    "index": 275,
+    "datum": "2023-11-02",
+    "javni": 867.48,
+    "zasebni": 318.84
+  },
+  {
+    "index": 276,
+    "datum": "2023-11-03",
+    "javni": 868.83,
+    "zasebni": 318.84
+  },
+  {
+    "index": 277,
+    "datum": "2023-11-04",
+    "javni": 868.83,
+    "zasebni": 318.84
+  },
+  {
+    "index": 278,
+    "datum": "2023-11-06",
+    "javni": 868.83,
+    "zasebni": 318.84
+  },
+  {
+    "index": 279,
+    "datum": "2023-11-07",
+    "javni": 869.3100000000001,
+    "zasebni": 318.84
+  },
+  {
+    "index": 280,
+    "datum": "2023-11-08",
+    "javni": 869.3100000000001,
+    "zasebni": 318.84
+  },
+  {
+    "index": 281,
+    "datum": "2023-11-09",
+    "javni": 869.0600000000001,
+    "zasebni": 318.84
+  },
+  {
+    "index": 282,
+    "datum": "2023-11-10",
+    "javni": 867.0600000000001,
+    "zasebni": 318.84
+  },
+  {
+    "index": 283,
+    "datum": "2023-11-11",
+    "javni": 867.0600000000001,
+    "zasebni": 318.84
+  },
+  {
+    "index": 284,
+    "datum": "2023-11-13",
+    "javni": 867.0600000000001,
+    "zasebni": 318.84
+  },
+  {
+    "index": 285,
+    "datum": "2023-11-14",
+    "javni": 867.86,
+    "zasebni": 318.84
+  },
+  {
+    "index": 286,
+    "datum": "2023-11-15",
+    "javni": 867.86,
+    "zasebni": 318.84
+  },
+  {
+    "index": 287,
+    "datum": "2023-11-16",
+    "javni": 866.61,
+    "zasebni": 317.84
+  },
+  {
+    "index": 288,
+    "datum": "2023-11-17",
+    "javni": 866.61,
+    "zasebni": 317.84
+  },
+  {
+    "index": 289,
+    "datum": "2023-11-18",
+    "javni": 866.61,
+    "zasebni": 317.84
+  },
+  {
+    "index": 290,
+    "datum": "2023-11-20",
+    "javni": 866.61,
+    "zasebni": 317.84
+  },
+  {
+    "index": 291,
+    "datum": "2023-11-21",
+    "javni": 866.29,
+    "zasebni": 318.84
+  },
+  {
+    "index": 292,
+    "datum": "2023-11-22",
+    "javni": 866.29,
+    "zasebni": 318.84
+  },
+  {
+    "index": 293,
+    "datum": "2023-11-23",
+    "javni": 866.29,
+    "zasebni": 318.84
+  },
+  {
+    "index": 294,
+    "datum": "2023-11-24",
+    "javni": 866.29,
+    "zasebni": 318.84
+  },
+  {
+    "index": 295,
+    "datum": "2023-11-25",
+    "javni": 866.29,
+    "zasebni": 318.84
+  },
+  {
+    "index": 296,
+    "datum": "2023-11-28",
+    "javni": 866.69,
+    "zasebni": 318.84
+  },
+  {
+    "index": 297,
+    "datum": "2023-11-29",
+    "javni": 866.69,
+    "zasebni": 318.84
+  },
+  {
+    "index": 298,
+    "datum": "2023-11-30",
+    "javni": 866.89,
+    "zasebni": 318.84
+  },
+  {
+    "index": 299,
+    "datum": "2023-12-01",
+    "javni": 867.14,
+    "zasebni": 318.84
+  },
+  {
+    "index": 300,
+    "datum": "2023-12-02",
+    "javni": 867.89,
+    "zasebni": 318.84
+  },
+  {
+    "index": 301,
+    "datum": "2023-12-04",
+    "javni": 867.89,
+    "zasebni": 318.84
+  },
+  {
+    "index": 302,
+    "datum": "2023-12-05",
+    "javni": 867.89,
+    "zasebni": 318.84
+  },
+  {
+    "index": 303,
+    "datum": "2023-12-06",
+    "javni": 866.49,
+    "zasebni": 318.84
+  },
+  {
+    "index": 304,
+    "datum": "2023-12-07",
+    "javni": 866.49,
+    "zasebni": 318.84
+  },
+  {
+    "index": 305,
+    "datum": "2023-12-08",
+    "javni": 866.49,
+    "zasebni": 318.84
+  },
+  {
+    "index": 306,
+    "datum": "2023-12-09",
+    "javni": 866.49,
+    "zasebni": 318.84
+  },
+  {
+    "index": 307,
+    "datum": "2023-12-11",
+    "javni": 866.49,
+    "zasebni": 318.84
+  },
+  {
+    "index": 308,
+    "datum": "2023-12-12",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 309,
+    "datum": "2023-12-13",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 310,
+    "datum": "2023-12-14",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 311,
+    "datum": "2023-12-15",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 312,
+    "datum": "2023-12-16",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 313,
+    "datum": "2023-12-18",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 314,
+    "datum": "2023-12-19",
+    "javni": 866.53,
+    "zasebni": 318.84
+  },
+  {
+    "index": 315,
+    "datum": "2023-12-20",
+    "javni": 866.53,
+    "zasebni": 318.84
+  },
+  {
+    "index": 316,
+    "datum": "2023-12-21",
+    "javni": 866.53,
+    "zasebni": 318.84
+  },
+  {
+    "index": 317,
+    "datum": "2023-12-22",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 318,
+    "datum": "2023-12-23",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 319,
+    "datum": "2023-12-25",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 320,
+    "datum": "2023-12-26",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 321,
+    "datum": "2023-12-27",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 322,
+    "datum": "2023-12-28",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 323,
+    "datum": "2023-12-29",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 324,
+    "datum": "2023-12-30",
+    "javni": 866.73,
+    "zasebni": 318.84
+  },
+  {
+    "index": 325,
+    "datum": "2024-01-01",
+    "javni": 865.02,
+    "zasebni": 319.2
+  },
+  {
+    "index": 326,
+    "datum": "2024-01-02",
+    "javni": 865.02,
+    "zasebni": 319.2
+  },
+  {
+    "index": 327,
+    "datum": "2024-01-03",
+    "javni": 865.02,
+    "zasebni": 319.2
+  },
+  {
+    "index": 328,
+    "datum": "2024-01-04",
+    "javni": 866.82,
+    "zasebni": 317.84
+  },
+  {
+    "index": 329,
+    "datum": "2024-01-05",
+    "javni": 866.02,
+    "zasebni": 316.84
+  },
+  {
+    "index": 330,
+    "datum": "2024-01-06",
+    "javni": 866.02,
+    "zasebni": 317.14
+  },
+  {
+    "index": 331,
+    "datum": "2024-01-08",
+    "javni": 866.02,
+    "zasebni": 317.14
+  },
+  {
+    "index": 332,
+    "datum": "2024-01-09",
+    "javni": 867.62,
+    "zasebni": 317.14
+  },
+  {
+    "index": 333,
+    "datum": "2024-01-10",
+    "javni": 867.62,
+    "zasebni": 317.14
+  },
+  {
+    "index": 334,
+    "datum": "2024-01-11",
+    "javni": 867,
+    "zasebni": 317.14
+  },
+  {
+    "index": 335,
+    "datum": "2024-01-12",
+    "javni": 866,
+    "zasebni": 317.14
+  },
+  {
+    "index": 336,
+    "datum": "2024-01-13",
+    "javni": 866.2,
+    "zasebni": 317.14
+  },
+  {
+    "index": 337,
+    "datum": "2024-01-16",
+    "javni": 866.23,
+    "zasebni": 317.14
+  },
+  {
+    "index": 338,
+    "datum": "2024-01-17",
+    "javni": 866.23,
+    "zasebni": 317.14
+  },
+  {
+    "index": 339,
+    "datum": "2024-01-18",
+    "javni": 865.48,
+    "zasebni": 316.94
+  },
+  {
+    "index": 340,
+    "datum": "2024-01-19",
+    "javni": 865.48,
+    "zasebni": 316.94
+  },
+  {
+    "index": 341,
+    "datum": "2024-01-20",
+    "javni": 865.48,
+    "zasebni": 316.94
+  },
+  {
+    "index": 342,
+    "datum": "2024-01-22",
+    "javni": 865.48,
+    "zasebni": 316.94
+  },
+  {
+    "index": 343,
+    "datum": "2024-01-23",
+    "javni": 865.48,
+    "zasebni": 316.94
+  },
+  {
+    "index": 344,
+    "datum": "2024-01-24",
+    "javni": 865.49,
+    "zasebni": 318.64
+  },
+  {
+    "index": 345,
+    "datum": "2024-01-25",
+    "javni": 863.93,
+    "zasebni": 317.64
+  },
+  {
+    "index": 346,
+    "datum": "2024-01-26",
+    "javni": 864.55,
+    "zasebni": 317.64
+  },
+  {
+    "index": 347,
+    "datum": "2024-01-27",
+    "javni": 864.55,
+    "zasebni": 317.64
+  },
+  {
+    "index": 348,
+    "datum": "2024-01-29",
+    "javni": 864.55,
+    "zasebni": 317.64
+  },
+  {
+    "index": 349,
+    "datum": "2024-01-30",
+    "javni": 865,
+    "zasebni": 317.64
+  },
+  {
+    "index": 350,
+    "datum": "2024-01-31",
+    "javni": 864.2,
+    "zasebni": 317.64
+  },
+  {
+    "index": 351,
+    "datum": "2024-02-05",
+    "javni": 862.76,
+    "zasebni": 317.64
+  },
+  {
+    "index": 352,
+    "datum": "2024-02-06",
+    "javni": 861.16,
+    "zasebni": 317.64
+  },
+  {
+    "index": 353,
+    "datum": "2024-02-07",
+    "javni": 861.16,
+    "zasebni": 317.64
+  },
+  {
+    "index": 354,
+    "datum": "2024-02-08",
+    "javni": 862.16,
+    "zasebni": 317.64
+  },
+  {
+    "index": 355,
+    "datum": "2024-02-09",
+    "javni": 862.16,
+    "zasebni": 317.64
+  },
+  {
+    "index": 356,
+    "datum": "2024-02-10",
+    "javni": 861.16,
+    "zasebni": 317.64
+  },
+  {
+    "index": 357,
+    "datum": "2024-02-12",
+    "javni": 861.16,
+    "zasebni": 317.64
+  },
+  {
+    "index": 358,
+    "datum": "2024-02-13",
+    "javni": 861.76,
+    "zasebni": 317.14
+  },
+  {
+    "index": 359,
+    "datum": "2024-02-14",
+    "javni": 860.96,
+    "zasebni": 317.14
+  },
+  {
+    "index": 360,
+    "datum": "2024-02-15",
+    "javni": 860.96,
+    "zasebni": 317.14
+  },
+  {
+    "index": 361,
+    "datum": "2024-02-17",
+    "javni": 861.12,
+    "zasebni": 317.14
+  },
+  {
+    "index": 362,
+    "datum": "2024-02-19",
+    "javni": 861.12,
+    "zasebni": 317.14
+  },
+  {
+    "index": 363,
+    "datum": "2024-02-20",
+    "javni": 861.12,
+    "zasebni": 317.14
+  },
+  {
+    "index": 364,
+    "datum": "2024-02-21",
+    "javni": 859.22,
+    "zasebni": 317.14
+  },
+  {
+    "index": 365,
+    "datum": "2024-02-22",
+    "javni": 860.22,
+    "zasebni": 317.14
+  },
+  {
+    "index": 366,
+    "datum": "2024-02-23",
+    "javni": 860.22,
+    "zasebni": 317.14
+  },
+  {
+    "index": 367,
+    "datum": "2024-02-24",
+    "javni": 860.22,
+    "zasebni": 317.14
+  },
+  {
+    "index": 368,
+    "datum": "2024-02-26",
+    "javni": 860.22,
+    "zasebni": 317.14
+  },
+  {
+    "index": 369,
+    "datum": "2024-02-27",
+    "javni": 860.22,
+    "zasebni": 316.29
+  },
+  {
+    "index": 370,
+    "datum": "2024-02-28",
+    "javni": 862.66,
+    "zasebni": 316.29
+  },
+  {
+    "index": 371,
+    "datum": "2024-02-29",
+    "javni": 862.16,
+    "zasebni": 316.29
+  },
+  {
+    "index": 372,
+    "datum": "2024-03-01",
+    "javni": 863.3100000000001,
+    "zasebni": 315.44
+  },
+  {
+    "index": 373,
+    "datum": "2024-03-02",
+    "javni": 864.71,
+    "zasebni": 317.44
+  },
+  {
+    "index": 374,
+    "datum": "2024-03-04",
+    "javni": 864.71,
+    "zasebni": 317.44
+  },
+  {
+    "index": 375,
+    "datum": "2024-03-06",
+    "javni": 864.71,
+    "zasebni": 316.44
+  },
+  {
+    "index": 376,
+    "datum": "2024-03-07",
+    "javni": 865.51,
+    "zasebni": 317.34
+  },
+  {
+    "index": 377,
+    "datum": "2024-03-08",
+    "javni": 865.51,
+    "zasebni": 317.34
+  },
+  {
+    "index": 378,
+    "datum": "2024-03-09",
+    "javni": 865.51,
+    "zasebni": 317.87
+  },
+  {
+    "index": 379,
+    "datum": "2024-03-11",
+    "javni": 865.51,
+    "zasebni": 317.87
+  },
+  {
+    "index": 380,
+    "datum": "2024-03-12",
+    "javni": 865.51,
+    "zasebni": 316.44
+  },
+  {
+    "index": 381,
+    "datum": "2024-03-13",
+    "javni": 864.72,
+    "zasebni": 317.44
+  },
+  {
+    "index": 382,
+    "datum": "2024-03-14",
+    "javni": 864.22,
+    "zasebni": 317.44
+  },
+  {
+    "index": 383,
+    "datum": "2024-03-15",
+    "javni": 864.47,
+    "zasebni": 317.44
+  },
+  {
+    "index": 384,
+    "datum": "2024-03-16",
+    "javni": 864.47,
+    "zasebni": 317.44
+  },
+  {
+    "index": 385,
+    "datum": "2024-03-18",
+    "javni": 864.47,
+    "zasebni": 317.44
+  },
+  {
+    "index": 386,
+    "datum": "2024-03-19",
+    "javni": 864.47,
+    "zasebni": 317.44
+  },
+  {
+    "index": 387,
+    "datum": "2024-03-20",
+    "javni": 864.47,
+    "zasebni": 317.44
+  },
+  {
+    "index": 388,
+    "datum": "2024-03-21",
+    "javni": 864.36,
+    "zasebni": 317.44
+  },
+  {
+    "index": 389,
+    "datum": "2024-03-22",
+    "javni": 863.57,
+    "zasebni": 317.44
+  },
+  {
+    "index": 390,
+    "datum": "2024-03-23",
+    "javni": 863.57,
+    "zasebni": 317.44
+  },
+  {
+    "index": 391,
+    "datum": "2024-03-25",
+    "javni": 863.57,
+    "zasebni": 317.44
+  },
+  {
+    "index": 392,
+    "datum": "2024-03-26",
+    "javni": 863.57,
+    "zasebni": 317.44
+  },
+  {
+    "index": 393,
+    "datum": "2024-03-27",
+    "javni": 863.57,
+    "zasebni": 317.44
+  },
+  {
+    "index": 394,
+    "datum": "2024-03-28",
+    "javni": 863.57,
+    "zasebni": 317.44
+  },
+  {
+    "index": 395,
+    "datum": "2024-03-29",
+    "javni": 863.97,
+    "zasebni": 317.44
+  },
+  {
+    "index": 396,
+    "datum": "2024-03-30",
+    "javni": 864.17,
+    "zasebni": 317.88
+  },
+  {
+    "index": 397,
+    "datum": "2024-04-01",
+    "javni": 861.76,
+    "zasebni": 318.73
+  },
+  {
+    "index": 398,
+    "datum": "2024-04-02",
+    "javni": 861.76,
+    "zasebni": 318.73
+  },
+  {
+    "index": 399,
+    "datum": "2024-04-03",
+    "javni": 860.83,
+    "zasebni": 318.73
+  },
+  {
+    "index": 400,
+    "datum": "2024-04-04",
+    "javni": 861.4,
+    "zasebni": 318.73
+  },
+  {
+    "index": 401,
+    "datum": "2024-04-05",
+    "javni": 861.4,
+    "zasebni": 318.73
+  },
+  {
+    "index": 402,
+    "datum": "2024-04-06",
+    "javni": 861.4,
+    "zasebni": 318.73
+  },
+  {
+    "index": 403,
+    "datum": "2024-04-08",
+    "javni": 861.4,
+    "zasebni": 318.73
+  },
+  {
+    "index": 404,
+    "datum": "2024-04-09",
+    "javni": 861.4,
+    "zasebni": 318.73
+  },
+  {
+    "index": 405,
+    "datum": "2024-04-10",
+    "javni": 861.18,
+    "zasebni": 318.53
+  },
+  {
+    "index": 406,
+    "datum": "2024-04-11",
+    "javni": 861.18,
+    "zasebni": 318.17
+  },
+  {
+    "index": 407,
+    "datum": "2024-04-12",
+    "javni": 861.93,
+    "zasebni": 318.67
+  },
+  {
+    "index": 408,
+    "datum": "2024-04-13",
+    "javni": 861.93,
+    "zasebni": 318.67
+  },
+  {
+    "index": 409,
+    "datum": "2024-04-15",
+    "javni": 862.23,
+    "zasebni": 318.67
+  },
+  {
+    "index": 410,
+    "datum": "2024-04-16",
+    "javni": 862.23,
+    "zasebni": 318.67
+  },
+  {
+    "index": 411,
+    "datum": "2024-04-17",
+    "javni": 862.23,
+    "zasebni": 318.67
+  },
+  {
+    "index": 412,
+    "datum": "2024-04-18",
+    "javni": 862.23,
+    "zasebni": 318.67
+  },
+  {
+    "index": 413,
+    "datum": "2024-04-19",
+    "javni": 862.23,
+    "zasebni": 318.67
+  },
+  {
+    "index": 414,
+    "datum": "2024-04-20",
+    "javni": 862.23,
+    "zasebni": 318.67
+  },
+  {
+    "index": 415,
+    "datum": "2024-04-22",
+    "javni": 862.23,
+    "zasebni": 318.67
+  },
+  {
+    "index": 416,
+    "datum": "2024-04-23",
+    "javni": 862.33,
+    "zasebni": 318.67
+  },
+  {
+    "index": 417,
+    "datum": "2024-04-24",
+    "javni": 862.33,
+    "zasebni": 318.67
+  },
+  {
+    "index": 418,
+    "datum": "2024-04-25",
+    "javni": 860.33,
+    "zasebni": 318.67
+  },
+  {
+    "index": 419,
+    "datum": "2024-04-26",
+    "javni": 863.33,
+    "zasebni": 318.67
+  },
+  {
+    "index": 420,
+    "datum": "2024-04-27",
+    "javni": 863.83,
+    "zasebni": 318.67
+  },
+  {
+    "index": 421,
+    "datum": "2024-04-29",
+    "javni": 863.83,
+    "zasebni": 318.67
+  },
+  {
+    "index": 422,
+    "datum": "2024-04-30",
+    "javni": 863.83,
+    "zasebni": 318.67
+  },
+  {
+    "index": 423,
+    "datum": "2024-05-01",
+    "javni": 862.75,
+    "zasebni": 318.67
+  },
+  {
+    "index": 424,
+    "datum": "2024-05-02",
+    "javni": 862.75,
+    "zasebni": 318.67
+  },
+  {
+    "index": 425,
+    "datum": "2024-05-03",
+    "javni": 862.75,
+    "zasebni": 318.67
+  },
+  {
+    "index": 426,
+    "datum": "2024-05-04",
+    "javni": 863.65,
+    "zasebni": 318.67
+  },
+  {
+    "index": 427,
+    "datum": "2024-05-06",
+    "javni": 863.65,
+    "zasebni": 318.67
+  },
+  {
+    "index": 428,
+    "datum": "2024-05-07",
+    "javni": 863.61,
+    "zasebni": 317.67
+  },
+  {
+    "index": 429,
+    "datum": "2024-05-08",
+    "javni": 864.61,
+    "zasebni": 317.67
+  },
+  {
+    "index": 430,
+    "datum": "2024-05-09",
+    "javni": 864.3100000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 431,
+    "datum": "2024-05-10",
+    "javni": 863.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 432,
+    "datum": "2024-05-11",
+    "javni": 863.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 433,
+    "datum": "2024-05-13",
+    "javni": 863.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 434,
+    "datum": "2024-05-14",
+    "javni": 865.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 435,
+    "datum": "2024-05-15",
+    "javni": 865.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 436,
+    "datum": "2024-05-16",
+    "javni": 865.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 437,
+    "datum": "2024-05-17",
+    "javni": 865.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 438,
+    "datum": "2024-05-18",
+    "javni": 865.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 439,
+    "datum": "2024-05-20",
+    "javni": 865.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 440,
+    "datum": "2024-05-21",
+    "javni": 865.5600000000001,
+    "zasebni": 317.67
+  },
+  {
+    "index": 441,
+    "datum": "2024-05-22",
+    "javni": 865.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 442,
+    "datum": "2024-05-23",
+    "javni": 865.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 443,
+    "datum": "2024-05-24",
+    "javni": 865.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 444,
+    "datum": "2024-05-25",
+    "javni": 864.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 445,
+    "datum": "2024-05-27",
+    "javni": 864.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 446,
+    "datum": "2024-05-28",
+    "javni": 864.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 447,
+    "datum": "2024-05-29",
+    "javni": 864.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 448,
+    "datum": "2024-05-30",
+    "javni": 864.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 449,
+    "datum": "2024-05-31",
+    "javni": 864.09,
+    "zasebni": 317.67
+  },
+  {
+    "index": 450,
+    "datum": "2024-06-01",
+    "javni": 865.03,
+    "zasebni": 317.67
+  },
+  {
+    "index": 451,
+    "datum": "2024-06-03",
+    "javni": 865.03,
+    "zasebni": 318.67
+  },
+  {
+    "index": 452,
+    "datum": "2024-06-04",
+    "javni": 864.82,
+    "zasebni": 318.67
+  },
+  {
+    "index": 453,
+    "datum": "2024-06-05",
+    "javni": 865.62,
+    "zasebni": 317.67
+  },
+  {
+    "index": 454,
+    "datum": "2024-06-06",
+    "javni": 865.37,
+    "zasebni": 317.67
+  },
+  {
+    "index": 455,
+    "datum": "2024-06-07",
+    "javni": 865.37,
+    "zasebni": 318.23
+  },
+  {
+    "index": 456,
+    "datum": "2024-06-08",
+    "javni": 865.57,
+    "zasebni": 318.23
+  },
+  {
+    "index": 457,
+    "datum": "2024-06-10",
+    "javni": 865.57,
+    "zasebni": 318.23
+  },
+  {
+    "index": 458,
+    "datum": "2024-06-11",
+    "javni": 865.57,
+    "zasebni": 318.23
+  },
+  {
+    "index": 459,
+    "datum": "2024-06-12",
+    "javni": 865.35,
+    "zasebni": 318.23
+  },
+  {
+    "index": 460,
+    "datum": "2024-06-13",
+    "javni": 865.35,
+    "zasebni": 318.23
+  },
+  {
+    "index": 461,
+    "datum": "2024-06-14",
+    "javni": 865.35,
+    "zasebni": 318.23
+  },
+  {
+    "index": 462,
+    "datum": "2024-06-15",
+    "javni": 864.35,
+    "zasebni": 318.23
+  },
+  {
+    "index": 463,
+    "datum": "2024-06-17",
+    "javni": 864.35,
+    "zasebni": 318.23
+  },
+  {
+    "index": 464,
+    "datum": "2024-06-18",
+    "javni": 863.55,
+    "zasebni": 318.23
+  },
+  {
+    "index": 465,
+    "datum": "2024-06-19",
+    "javni": 863.55,
+    "zasebni": 318.23
+  },
+  {
+    "index": 466,
+    "datum": "2024-06-20",
+    "javni": 863.96,
+    "zasebni": 318.23
+  },
+  {
+    "index": 467,
+    "datum": "2024-06-21",
+    "javni": 863.96,
+    "zasebni": 318.23
+  },
+  {
+    "index": 468,
+    "datum": "2024-06-22",
+    "javni": 863.41,
+    "zasebni": 318.23
+  },
+  {
+    "index": 469,
+    "datum": "2024-06-24",
+    "javni": 863.41,
+    "zasebni": 318.23
+  },
+  {
+    "index": 470,
+    "datum": "2024-06-25",
+    "javni": 863.41,
+    "zasebni": 318.23
+  },
+  {
+    "index": 471,
+    "datum": "2024-06-26",
+    "javni": 863.41,
+    "zasebni": 318.23
+  },
+  {
+    "index": 472,
+    "datum": "2024-06-27",
+    "javni": 864.01,
+    "zasebni": 318.23
+  },
+  {
+    "index": 473,
+    "datum": "2024-06-28",
+    "javni": 864.01,
+    "zasebni": 318.23
+  },
+  {
+    "index": 474,
+    "datum": "2024-06-29",
+    "javni": 864.01,
+    "zasebni": 318.23
+  },
+  {
+    "index": 475,
+    "datum": "2024-07-01",
+    "javni": 864.77,
+    "zasebni": 319.23
+  },
+  {
+    "index": 476,
+    "datum": "2024-07-02",
+    "javni": 865.52,
+    "zasebni": 319.23
+  },
+  {
+    "index": 477,
+    "datum": "2024-07-03",
+    "javni": 865.31,
+    "zasebni": 319.23
+  },
+  {
+    "index": 478,
+    "datum": "2024-07-04",
+    "javni": 865.31,
+    "zasebni": 319.23
+  },
+  {
+    "index": 479,
+    "datum": "2024-07-05",
+    "javni": 865.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 480,
+    "datum": "2024-07-06",
+    "javni": 865.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 481,
+    "datum": "2024-07-08",
+    "javni": 865.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 482,
+    "datum": "2024-07-09",
+    "javni": 865.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 483,
+    "datum": "2024-07-10",
+    "javni": 866.83,
+    "zasebni": 319.23
+  },
+  {
+    "index": 484,
+    "datum": "2024-07-11",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 485,
+    "datum": "2024-07-12",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 486,
+    "datum": "2024-07-13",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 487,
+    "datum": "2024-07-15",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 488,
+    "datum": "2024-07-16",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 489,
+    "datum": "2024-07-17",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 490,
+    "datum": "2024-07-18",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 491,
+    "datum": "2024-07-20",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 492,
+    "datum": "2024-07-22",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 493,
+    "datum": "2024-07-23",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 494,
+    "datum": "2024-07-24",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 495,
+    "datum": "2024-07-25",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 496,
+    "datum": "2024-07-26",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 497,
+    "datum": "2024-07-27",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 498,
+    "datum": "2024-07-29",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 499,
+    "datum": "2024-07-30",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 500,
+    "datum": "2024-07-31",
+    "javni": 866.61,
+    "zasebni": 319.23
+  },
+  {
+    "index": 501,
+    "datum": "2024-08-01",
+    "javni": 858.39,
+    "zasebni": 320.23
+  },
+  {
+    "index": 502,
+    "datum": "2024-08-02",
+    "javni": 857.62,
+    "zasebni": 319.23
+  },
+  {
+    "index": 503,
+    "datum": "2024-08-03",
+    "javni": 857.62,
+    "zasebni": 319.23
+  },
+  {
+    "index": 504,
+    "datum": "2024-08-05",
+    "javni": 857.62,
+    "zasebni": 319.23
+  },
+  {
+    "index": 505,
+    "datum": "2024-08-06",
+    "javni": 857.62,
+    "zasebni": 319.23
+  },
+  {
+    "index": 506,
+    "datum": "2024-08-07",
+    "javni": 864.1,
+    "zasebni": 319.23
+  },
+  {
+    "index": 507,
+    "datum": "2024-08-08",
+    "javni": 864.1,
+    "zasebni": 319.23
+  },
+  {
+    "index": 508,
+    "datum": "2024-08-15",
+    "javni": 864.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 509,
+    "datum": "2024-08-16",
+    "javni": 864.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 510,
+    "datum": "2024-08-17",
+    "javni": 864.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 511,
+    "datum": "2024-08-19",
+    "javni": 864.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 512,
+    "datum": "2024-08-20",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 513,
+    "datum": "2024-08-21",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 514,
+    "datum": "2024-08-22",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 515,
+    "datum": "2024-08-23",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 516,
+    "datum": "2024-08-24",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 517,
+    "datum": "2024-08-26",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 518,
+    "datum": "2024-08-27",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 519,
+    "datum": "2024-08-28",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 520,
+    "datum": "2024-08-29",
+    "javni": 865.15,
+    "zasebni": 319.23
+  },
+  {
+    "index": 521,
+    "datum": "2024-08-30",
+    "javni": 864.63,
+    "zasebni": 319.23
+  },
+  {
+    "index": 522,
+    "datum": "2024-08-31",
+    "javni": 863.88,
+    "zasebni": 319.23
+  },
+  {
+    "index": 523,
+    "datum": "2024-09-03",
+    "javni": 864.58,
+    "zasebni": 319.23
+  },
+  {
+    "index": 524,
+    "datum": "2024-09-04",
+    "javni": 863.5,
+    "zasebni": 319.23
+  },
+  {
+    "index": 525,
+    "datum": "2024-09-05",
+    "javni": 863.5,
+    "zasebni": 319.23
+  },
+  {
+    "index": 526,
+    "datum": "2024-09-06",
+    "javni": 863.5,
+    "zasebni": 319.23
+  },
+  {
+    "index": 527,
+    "datum": "2024-09-07",
+    "javni": 863.5,
+    "zasebni": 319.43
+  },
+  {
+    "index": 528,
+    "datum": "2024-09-09",
+    "javni": 863.5,
+    "zasebni": 319.43
+  },
+  {
+    "index": 529,
+    "datum": "2024-09-10",
+    "javni": 862.68,
+    "zasebni": 319.43
+  },
+  {
+    "index": 530,
+    "datum": "2024-09-11",
+    "javni": 864.23,
+    "zasebni": 319.43
+  },
+  {
+    "index": 531,
+    "datum": "2024-09-12",
+    "javni": 863.81,
+    "zasebni": 319.43
+  },
+  {
+    "index": 532,
+    "datum": "2024-09-13",
+    "javni": 864.63,
+    "zasebni": 319.43
+  },
+  {
+    "index": 533,
+    "datum": "2024-09-14",
+    "javni": 864.63,
+    "zasebni": 319.43
+  },
+  {
+    "index": 534,
+    "datum": "2024-09-16",
+    "javni": 863.98,
+    "zasebni": 319.43
+  },
+  {
+    "index": 535,
+    "datum": "2024-09-17",
+    "javni": 863.87,
+    "zasebni": 319.43
+  },
+  {
+    "index": 536,
+    "datum": "2024-09-18",
+    "javni": 861.87,
+    "zasebni": 320.43
+  },
+  {
+    "index": 537,
+    "datum": "2024-09-19",
+    "javni": 861.62,
+    "zasebni": 320.43
+  },
+  {
+    "index": 538,
+    "datum": "2024-09-20",
+    "javni": 862.62,
+    "zasebni": 320.43
+  },
+  {
+    "index": 539,
+    "datum": "2024-09-21",
+    "javni": 862.62,
+    "zasebni": 320.43
+  },
+  {
+    "index": 540,
+    "datum": "2024-09-23",
+    "javni": 862.62,
+    "zasebni": 320.43
+  },
+  {
+    "index": 541,
+    "datum": "2024-09-24",
+    "javni": 863.29,
+    "zasebni": 320.43
+  },
+  {
+    "index": 542,
+    "datum": "2024-09-25",
+    "javni": 861.84,
+    "zasebni": 320.43
+  },
+  {
+    "index": 543,
+    "datum": "2024-09-26",
+    "javni": 861.84,
+    "zasebni": 320.43
+  },
+  {
+    "index": 544,
+    "datum": "2024-09-27",
+    "javni": 862.62,
+    "zasebni": 320.43
+  },
+  {
+    "index": 545,
+    "datum": "2024-09-28",
+    "javni": 862.62,
+    "zasebni": 320.43
+  },
+  {
+    "index": 546,
+    "datum": "2024-09-30",
+    "javni": 863.62,
+    "zasebni": 320.43
+  },
+  {
+    "index": 547,
+    "datum": "2024-10-01",
+    "javni": 864.12,
+    "zasebni": 321.44
+  },
+  {
+    "index": 548,
+    "datum": "2024-10-02",
+    "javni": 861.45,
+    "zasebni": 324.19
+  },
+  {
+    "index": 549,
+    "datum": "2024-10-03",
+    "javni": 862,
+    "zasebni": 326.19
+  },
+  {
+    "index": 550,
+    "datum": "2024-10-04",
+    "javni": 862,
+    "zasebni": 325.19
+  },
+  {
+    "index": 551,
+    "datum": "2024-10-05",
+    "javni": 861,
+    "zasebni": 325.44
+  },
+  {
+    "index": 552,
+    "datum": "2024-10-07",
+    "javni": 861,
+    "zasebni": 325.44
+  }
+]

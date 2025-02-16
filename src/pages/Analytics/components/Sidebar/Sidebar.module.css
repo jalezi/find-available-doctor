@@ -1,0 +1,79 @@
+.Sidebar {
+  background: #ffffff;
+}
+
+.SidebarMobile {
+  position: fixed;
+  right: calc(var(--minimum-content-padding, 1.5rem) / 2);
+  bottom: 16px;
+  z-index: 6;
+  width: 48px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.SidebarMobile > button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  background: rgba(38, 197, 237, 0.56);
+  transition: all 0.3s ease;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+}
+.SidebarMobile > button:hover {
+  background: rgba(38, 197, 237, 1);
+}
+.SidebarMobile > button:focus-visible {
+  outline: 2px auto #09afda;
+}
+
+.SidebarTitle {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.SidebarGroupsWrapper {
+  max-height: 300px;
+  overflow: auto;
+  scrollbar-gutter: stable;
+}
+
+.SidebarGroup {
+  margin-bottom: 1rem;
+}
+
+.SidebarGroupTitle {
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  text-wrap: balance;
+}
+
+.SidebarLink {
+  display: block;
+  padding-block: 0.5em;
+
+  color: var(--foreground);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-wrap: balance;
+}
+
+.SidebarLink:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.SidebarLink:hover {
+  background-color: #f5f5f5;
+}

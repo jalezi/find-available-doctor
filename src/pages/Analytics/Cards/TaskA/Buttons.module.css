@@ -1,0 +1,27 @@
+.Buttons,
+.MunicipalityCheckbox {
+  --color: currentColor;
+  --border-color: currentColor;
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25em;
+
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  padding-inline: 0.5em;
+  padding-block: 0.25em;
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  background-color: transparent;
+  color: var(--color);
+}
+
+.Buttons[data-state='inactive'] {
+  text-decoration: line-through;
+}
+
+.Buttons[data-state='active'] {
+  text-decoration: none;
+}

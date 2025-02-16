@@ -1,108 +1,250 @@
 {
-    "loading": "Nalagam…",
-    "header": {
-        "menu": "Meni",
-        "home": "Imenik",
-        "about": "O projektu",
-        "faq": "Pojasnila",
-        "support": "Podpri!",
-        "sledilnik": "Sledilnik.org"
+  "loading": "Nalagam…",
+  "header": {
+    "menu": "Meni",
+    "home": "Imenik",
+    "about": "O projektu",
+    "analytics": "Analitika",
+    "faq": "Pojasnila",
+    "support": "Podpri!",
+    "sledilnik": "Sledilnik.org"
+  },
+  "accepts": "sprejema",
+  "rejects": "ne sprejema",
+  "all": "vsi",
+  "generalPractitioner": "družinski zdravnik",
+  "dentist": "zobozdravnik",
+  "pediatrician": "pediater",
+  "gynecologist": "ginekolog",
+  "adults": "odrasli",
+  "students": "študenti",
+  "youth": "mladina",
+  "floatingClinic": "Ambulanta za neopredeljene",
+  "clinicForBetterAccessibility": "Ambulanta za boljšo dostopnost",
+  "clinicForBetterAccessibilityDesc": "V ambulantah za boljšo dostopnost si izbranega osebnega zdravnika lahko izberejo zavarovane osebe, ki v dejavnosti splošne ambulante in dispanzerju za otroke in šolarje nimajo izbranega osebnega zdravnika (sploh nimajo veljavne izbire, ali je izbrani osebni zdravnik trajno odsoten).",
+  "doctorCard": {
+    "more": "Več",
+    "showOnMap": "Pokaži na zemljevidu",
+    "noPhone": "Ni telefonske številke"
+  },
+  "search": "Išči…",
+  "filter": "Filter",
+  "map": "Zemljevid",
+  "list": "Seznam",
+  "totalResults_one": "{{count}} zadetek",
+  "totalResults_two": "{{count}} zadetka",
+  "totalResults_few": "{{count}} zadetki",
+  "totalResults_other": "{{count}} zadetkov",
+  "noResults": "Noben zdravnik ne ustreza iskalnim pogojem. Preverite, če imate označeno pravilno vrsto zdravnika ali razširite pogled na zemljevidu.",
+  "changedOn": "Popravek od: ",
+  "headQuotient": "Glavarinski količnik",
+  "achievingAverageOE": "Doseganje povprečja OE",
+  "doctorAvailabilityLabel": "Obseg zaposlitve",
+  "doctorAvailability": "Obseg zaposlitve: delež je lahko nižji od 100 %, ker zdravnik določen del časa dela na preventivnih programih ali na drugih dejavnostih (recimo zobozdravnik za odrasle in mladino).",
+  "yourLocation": "Tvoja lokacija",
+  "toContent": "Na vsebino",
+  "findAvailableDoctor": "Najdi prostega zdravnika",
+  "showAll": "Pokaži vse",
+  "copy": "Kopiraj",
+  "copied": "Skopirano!",
+  "backToHome": "Nazaj na imenik",
+  "faq": {
+    "title": "Pogosta vprašanja in odgovori",
+    "description": "V primeru, da potrebujete nujno medicinsko pomoč, se obrnite na lokalno urgentno službo oz. pokličite 112.",
+    "glossary": "Slovar izrazov"
+  },
+  "pageNotFound": {
+    "somethingWentWrong": "ups… nekaj se je zalomilo :(",
+    "back": "Nazaj",
+    "imageDescription": "skomigajoči zdravnik"
+  },
+  "SEO": {
+    "title": {
+      "notFound": "404: stran ne obstaja",
+      "home": "Zdravniki - Sledilnik",
+      "about": "O strani",
+      "analytics": "Analitika",
+      "faq": "Pogosta vprašanja"
+    }
+  },
+  "reportError": {
+    "title": "Prijavi napako",
+    "tooltip": "Prijavi napako v objavljenih podatkih",
+    "text": "Prijavi napako na posameznih podatkih o zdravniku in vnesi pravilne podatke ali opombo:",
+    "cancel": "Prekliči",
+    "send": "Pošlji",
+    "reset": "Ponastavi",
+    "reportReceived": "Hvala za poslano! Podatke bomo pregledali.",
+    "reportError": "Prišlo je do napake pri pošiljanju podatkov. Prosim, poskusite znova.",
+    "reportNoChange": "Noben podatek ni bil spremenjen",
+    "placeholder": {
+      "address": "naslov",
+      "website": "spletna stran",
+      "phone": "telefon",
+      "email": "e-pošta",
+      "orderform": "povezava za naročanje",
+      "availability": "obseg zaposlitve",
+      "note": "opomba"
     },
-    "accepts": "sprejema",
-    "rejects": "ne sprejema",
-    "all": "vsi",
-    "generalPractitioner": "družinski zdravnik",
-    "dentist": "zobozdravnik",
-    "pediatrician": "pediater",
-    "gynecologist": "ginekolog",
-    "adults": "odrasli",
-    "students": "študenti",
-    "youth": "mladina",
-    "floatingClinic": "Ambulanta za neopredeljene",
-    "clinicForBetterAccessibility": "Ambulanta za boljšo dostopnost",
-    "clinicForBetterAccessibilityDesc": "V ambulantah za boljšo dostopnost si izbranega osebnega zdravnika lahko izberejo zavarovane osebe, ki v dejavnosti splošne ambulante in dispanzerju za otroke in šolarje nimajo izbranega osebnega zdravnika (sploh nimajo veljavne izbire, ali je izbrani osebni zdravnik trajno odsoten).",
-    "doctorCard": {
-        "more": "Več",
-        "showOnMap": "Pokaži na zemljevidu",
-        "noPhone": "Ni telefonske številke"
+    "confirmation": {
+      "title": "Potrditev",
+      "warningText": "Obrazec NI namenjen naročanju na pregled ali posvet. Za naročanje se obrnite na izbranega zdravnika.",
+      "text": "Ali ste prepričani, da želite predlagati popravek podatkov?"
+    }
+  },
+  "error": {
+    "title": "Nekaj je šlo narobe"
+  },
+  "footer": {
+    "dataSource": "Vir podatkov",
+    "lastChange": "Zadnja sprememba",
+    "ourProjects": "Naši projekti",
+    "links": "Povezave"
+  },
+  "orderform": "naročanje",
+  "timestamps": {
+    "datetime": "{{val, datetime}}",
+    "at": "ob"
+  },
+  "sozialmarie": {
+    "description": "Portal Zdravniki Sledilnik je bil ustvarjen z namenom približevanja osrkbe k pacientu. V Sloveniji se soočamo s pomankanjem zdravnikov na primarnem nivoju. Veliko pacientov je zaradi tega brez osnovne pravice dostopa do opredelitve osebnega zdravnika. V Znanstvenem društvu Sledilnik smo podatke, ki so se javno objavljali na 15 dni v nepregledni razpredelnici uvozili v naš portal ter omogočali uporabnikom, da podatke posodabljajo v realnem času. Tako smo pacientom, ki so iskali oskrbo na primarnem nivoju omogočili prijazno uporabniško informacijo ter ažurne informacije."
+  },
+  "analytics": {
+    "touchDevice": {
+      "text": "Za najboljšo izkušnjo uporabite namizni računalnik.",
+      "checkboxLabel": "Ne prikaži več tega sporočila"
     },
-    "search": "Išči…",
-    "filter": "Filter",
-    "map": "Zemljevid",
-    "list": "Seznam",
-    "totalResults_one": "{{count}} zadetek",
-    "totalResults_two": "{{count}} zadetka",
-    "totalResults_few": "{{count}} zadetki",
-    "totalResults_other": "{{count}} zadetkov",
-    "noResults": "Noben zdravnik ne ustreza iskalnim pogojem. Preverite, če imate označeno pravilno vrsto zdravnika ali razširite pogled na zemljevidu.",
-    "changedOn": "Popravek od: ",
-    "headQuotient": "Glavarinski količnik",
-    "achievingAverageOE": "Doseganje povprečja OE",
-    "doctorAvailabilityLabel": "Obseg zaposlitve",
-    "doctorAvailability": "Obseg zaposlitve: delež je lahko nižji od 100 %, ker zdravnik določen del časa dela na preventivnih programih ali na drugih dejavnostih (recimo zobozdravnik za odrasle in mladino).",
-    "yourLocation": "Tvoja lokacija",
-    "toContent": "Na vsebino",
-    "findAvailableDoctor": "Najdi prostega zdravnika",
-    "showAll": "Pokaži vse",
-    "copy": "Kopiraj",
-    "copied": "Skopirano!",
-    "backToHome": "Nazaj na imenik",
-    "faq": {
-        "title": "Pogosta vprašanja in odgovori",
-        "description": "V primeru, da potrebujete nujno medicinsko pomoč, se obrnite na lokalno urgentno službo oz. pokličite 112.",
-        "glossary": "Slovar izrazov"
+    "sectionTitle": {
+      "1": "Analitični prikaz podatkov o dostopnosti do primarne zdravstvene oskrbe",
+      "2": "Dev Primeri"
     },
-    "pageNotFound": {
-        "somethingWentWrong": "ups… nekaj se je zalomilo :(",
-        "back": "Nazaj",
-        "imageDescription": "skomigajoči zdravnik"
+    "sidebar": {
+      "title": "Grafi"
     },
-    "SEO": {
-        "title": {
-            "notFound": "404: stran ne obstaja",
-            "home": "Zdravniki - Sledilnik",
-            "about": "O strani",
-            "faq": "Pogosta vprašanja"
-        }
+    "common": {
+      "doctorType": "Dejavnost",
+      "municipality": "Občina",
+      "municipalities": "občine",
+      "year": "Leto",
+      "selectMunicipality": "Izberi...",
+      "doctorTypes": {
+        "betterAccessibility": "Boljša dostopnost",
+        "gp": "Družinski zdravniki",
+        "gyn": "Ginekologija",
+        "dso": "DSO",
+        "den": "Zobozdravstvo"
+      },
+      "ageGroup": "st. skupina",
+      "contractTypes": {
+        "private": "zasebni",
+        "public": "javni"
+      },
+      "buttons": {
+        "cityMunicipalitiesActive": "Mestne občine",
+        "cityMunicipalitiesInactive": "Mestne občine",
+        "isSelectedText": "izberi",
+        "clearAll": "počisti izbor",
+        "allCities": "Vse občine",
+        "close": "Zapri",
+        "mapSettings": "možnosti zemljevida",
+        "min": "min",
+        "max": "maks",
+        "selected": "izbor",
+        "reset": "$t(reportError.reset)",
+        "export": "Izvoz",
+        "menu": "$t(header.menu)",
+        "fullScreen": "Celozaslonski način",
+        "print": "Natisni"
+      },
+      "data": {
+        "iozRatio": "delež opredeljeni/vsi",
+        "insuredPeopleCount": "vsi zavarovanci",
+        "insuredPeopleCountWithIOZ": "opredeljeni",
+        "insuredPeopleCountWithoutIOZ": "neopredeljeni",
+        "gynDoseganjePovprecja": "$t(analytics.common.doctorTypes.gyn)",
+        "gynObseg": "$t(analytics.common.doctorTypes.gyn)",
+        "gpGlavarinaMean": "Povprečna glavarina na izvajalca programa",
+        "gpGlavarina": "Skupna glavarina vseh programov glede na lastništvo izvajalca",
+        "gpObseg": "$t(analytics.common.doctorTypes.gp)",
+        "denDoseganjePovprecja": "$t(analytics.common.doctorTypes.den)",
+        "denObseg": "$t(analytics.common.doctorTypes.den)",
+        "capitation": "Glavarina",
+        "vol": "Št. programov",
+        "avg": "Povprečje",
+        "private": "zasebni",
+        "public": "javni"
+      }
     },
-    "reportError": {
-        "title": "Prijavi napako",
-        "tooltip": "Prijavi napako v objavljenih podatkih",
-        "text": "Prijavi napako na posameznih podatkih o zdravniku in vnesi pravilne podatke ali opombo:",
-        "cancel": "Prekliči",
-        "send": "Pošlji",
-        "reset": "Ponastavi",
-        "reportReceived": "Hvala za poslano! Podatke bomo pregledali.",
-        "reportError": "Prišlo je do napake pri pošiljanju podatkov. Prosim, poskusite znova.",
-        "reportNoChange": "Noben podatek ni bil spremenjen",
-        "placeholder": {
-            "address": "naslov",
-            "website": "spletna stran",
-            "phone": "telefon",
-            "email": "e-pošta",
-            "orderform": "povezava za naročanje",
-            "availability": "obseg zaposlitve",
-            "note": "opomba"
+    "taskA": {
+      "title": "Neopredeljeni v Sloveniji",
+      "mapTitle": "$t(analytics.taskA.title): {{suffix}}",
+      "mapTitleSuffix": "Delež opredeljenih po občinah",
+      "mapSubtitle": "{{doctorType}} za {{year}}",
+      "chartTitle": "$t(analytics.taskA.title): {{suffix}}",
+      "chartTitleSuffix": "Trend skozi čas",
+      "chartSubtitle": "{{doctorType}} po starostnih skupinah",
+      "yAxis": {
+        "title": "$t(analytics.common.data.iozRatio)"
+      },
+      "menu": "$t(header.menu)",
+      "export": "$t(analytics.common.buttons.export) {{value}}"
+    },
+
+    "taskATrend": {
+      "title": "Trend skozi čas",
+      "yAxis": {
+        "title": "$t(analytics.common.data.iozRatio)"
+      },
+      "menu": "$t(header.menu)",
+      "export": "$t(analytics.common.buttons.export) {{value}}"
+    },
+    "taskD": {
+      "title": "Primerjava glede na status izvajalca (javni-zasebni)",
+      "chart": {
+        "title": "{{value}}: $t(analytics.taskD.title)",
+        "yAxis": {
+          "titles": {
+            "gynDoseganjePovprecja": "delež doseganja sl. povprečja obsega dela",
+            "gynObseg": "št. programov",
+            "gpGlavarinaMean": "povprečna glavarina na 1 izvajalca",
+            "gpGlavarina": "glavarina",
+            "gpObseg": "št. programov",
+            "denDoseganjePovprecja": "delež doseganja sl. povprečja obsega dela",
+            "denObseg": "št. programov"
+          }
         },
-        "confirmation": {
-            "title": "Potrditev",
-            "warningText": "Obrazec NI namenjen naročanju na pregled ali posvet. Za naročanje se obrnite na izbranega zdravnika.",
-            "text": "Ali ste prepričani, da želite predlagati popravek podatkov?"
+        "series": {
+          "public": "$t(analytics.common.data.public)",
+          "private": "$t(analytics.common.data.private)"
         }
+      },
+      "menu": "$t(header.menu)",
+      "export": "$t(analytics.common.buttons.export)"
     },
-    "error": {
-        "title": "Nekaj je šlo narobe"
+    "taskSpecial": {
+      "title": "Gibanje števila neopredeljenih skozi čas",
+      "chart": {
+        "title": "{{value}}: $t(analytics.taskSpecial.title)",
+        "yAxis": {
+          "0": {
+            "title": "št. zavarovancev"
+          },
+          "1": {
+            "title": "delež neopredeljenih"
+          }
+        },
+        "series": {
+          "insuredPeopleCount": "$t(analytics.common.data.insuredPeopleCount)",
+          "insuredPeopleCountWithIOZ": "$t(analytics.common.data.insuredPeopleCountWithIOZ)",
+          "insuredPeopleCountWithoutIOZ": "$t(analytics.common.data.insuredPeopleCountWithoutIOZ)",
+          "iozRatio": "$t(analytics.common.data.iozRatio)"
+        }
+      },
+      "menu": "$t(header.menu)",
+      "export": "$t(analytics.common.buttons.export)"
     },
     "footer": {
-        "dataSource": "Vir podatkov",
-        "lastChange": "Zadnja sprememba"
-    },
-    "orderform": "naročanje",
-    "timestamps": {
-        "datetime": "{{val, datetime}}",
-        "at": "ob"
-    },
-    "sozialmarie": {
-        "description": "Portal Zdravniki Sledilnik je bil ustvarjen z namenom približevanja osrkbe k pacientu. V Sloveniji se soočamo s pomankanjem zdravnikov na primarnem nivoju. Veliko pacientov je zaradi tega brez osnovne pravice dostopa do opredelitve osebnega zdravnika. V Znanstvenem društvu Sledilnik smo podatke, ki so se javno objavljali na 15 dni v nepregledni razpredelnici uvozili v naš portal ter omogočali uporabnikom, da podatke posodabljajo v realnem času. Tako smo pacientom, ki so iskali oskrbo na primarnem nivoju omogočili prijazno uporabniško informacijo ter ažurne informacije."
+      "doctors": "Zdravniki"
     }
+  }
 }

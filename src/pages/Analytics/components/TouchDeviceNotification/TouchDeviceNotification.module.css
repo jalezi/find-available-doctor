@@ -1,0 +1,13 @@
+.TouchDeviceNotification {
+  padding-right: 1em;
+}
+
+.TouchDeviceNotification > p {
+  margin-bottom: 1em;
+}
+
+.TouchDeviceNotification > label {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}

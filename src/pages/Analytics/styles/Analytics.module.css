@@ -1,0 +1,60 @@
+:root {
+  --radius: 0.5rem;
+
+  --background: rgb(248 248 248);
+  --foreground: rgb(0 0 0);
+  --card: rgb(255, 255, 255);
+  --card-foreground: rgb(0 0 0);
+
+  --popover: rgb(248 248 248);
+  --popover-foreground: rgb(0 0 0);
+
+  --muted: rgb(235, 235, 235);
+  --muted-foreground: rgb(39, 39, 39);
+
+  --accent: rgb(235, 235, 235);
+  --accent-foreground: rgb(39, 39, 39);
+
+  --border: rgb(232 232 232);
+}
+
+.Analytics {
+  background: var(--background);
+}
+
+figure:where(:has(div[data-highcharts-chart])) {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 900px) {
+  .Analytics {
+    grid-template-columns: 250px 1fr;
+  }
+}
+
+.MainTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.PageContent {
+  margin-bottom: 2rem;
+}
+
+.SectionTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  text-wrap: balance;
+}
+
+.ChartSection:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.ChartSection > *:not(:last-child) {
+  margin-bottom: 2rem;
+}

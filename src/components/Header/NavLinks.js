@@ -30,6 +30,7 @@ const NavLinks = function NavLinks() {
 
       <Styled.NavMenuLink to={`/${lng}/faq`}>{t('header.faq')}</Styled.NavMenuLink>
       <Styled.NavMenuLink to={`/${lng}/about`}>{t('header.about')}</Styled.NavMenuLink>
+      <Styled.NavMenuLink to={`/${lng}/analytics`}>{t('header.analytics')}</Styled.NavMenuLink>
       <SledilnikOrgLinks />
     </>
   );

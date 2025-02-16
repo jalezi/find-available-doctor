@@ -1,0 +1,71 @@
+.Card {
+  background: var(--card);
+  color: var(--card-foreground);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.PaddingNone {
+  --card-padding: 0;
+}
+
+.PaddingXS {
+  --card-padding: 0.5rem;
+}
+
+.PaddingSM {
+  --card-padding: 0.75rem;
+}
+
+.PaddingMD {
+  --card-padding: 1rem;
+}
+
+.PaddingLG {
+  --card-padding: 1.25rem;
+}
+
+.PaddingXL {
+  --card-padding: 1.5rem;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--card-padding);
+}
+
+.Content {
+  font-size: 1rem;
+  line-height: 1.125;
+
+  padding: var(--card-padding);
+}
+
+.Title {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.Subtitle {
+  font-size: 1.125rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.Description {
+  color: var(--muted-foreground);
+
+  font-size: 1rem;
+  line-height: 1.125;
+  font-weight: 400;
+}
+
+.Footer {
+  font-size: 1rem;
+  line-height: 1.125;
+  font-weight: 400;
+}

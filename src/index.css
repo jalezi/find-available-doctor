@@ -13,11 +13,23 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'IMB Plex Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif !important;
   background-color: var(
     --bcg-color
   ) !important; /* this is temporary until I figure out MUI theme background */
+}
+
+[id] {
+  scroll-margin-top: 5rem;
+
+  @media (min-width: 600px) {
+    scroll-margin-top: 6rem;
+  }
 }
 
 .leaflet-popup {
@@ -34,4 +46,20 @@ body {
   top: 6px;
   right: 6px;
   padding: 8px;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
